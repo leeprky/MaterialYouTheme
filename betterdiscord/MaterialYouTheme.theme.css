@@ -1,7 +1,7 @@
 /**
  * @name Material You
  * @author Leeprky#2063
- * @version 0.0.1
+ * @version 0.1.0
  * @description An Android 12 Inspired Material You Theme
  * @source https://github.com/leeprky/MaterialYouTheme
  * @updateUrl https://raw.githubusercontent.com/leeprky/MaterialYouTheme/main/betterdiscord/MaterialYouTheme.theme.css
@@ -10,14 +10,13 @@
  * @donate https://www.paypal.com/paypalme/leeparkinson22
  * @website https://leeprky.github.io/
 */
-
 /* 
  __  __  ___  _____  ___  ___  ___  ___  _       __   __  ___   _   _ 
 |  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |      \ \ / / / _ \ | | | |
 | |\/| || - |  | |  | _| |   / | | | - || |__     \   / | (_) || |_| |
 |_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|     |_|   \___/  \___/ 
                              .--------.
-                             | v0.0.1 |
+                             | v0.1.0 |
                              '--------'
 */
 
@@ -187,7 +186,8 @@ l         ]     o !__./
 |___| \___||_|\_| \___/ |_|_\|___|
 */
 
-:root {--outdated_materialyou-001: none !important; --version: "0.0.1C" !important; --build: "001" !important; --im-aware: none;
+:root{--version-display: flex}
+:root {--outdated_materialyou-010: none !important; --version: "0.1.0C" !important; --build: "010" !important; --im-aware: none;
       --main-background-alternative: var(--main-background);--secondary-background-alternative: var(--secondary-background);--accent: var(--alt-color2);--green-color: var(--alt-color2); /* HEX ONLY */--green-color2: var(--alt-color); /* RGB ONLY */--green-bar-on: rgba(var(--alt-color), 0.3); /* RGBA ONLY */--green-bar-bg: var(--green-color); /* RGB ONLY */--green-slider-on: var(--green-color); /* RGB ONLY */--green-slider-off: rgba(var(--alt-color), 0.4); /* RGBA ONLY */--green-slider-dot: #fff;--rs-online-color: var(--main-colour2);  /* Colour for online status */--chatbox-colour: var(--background-secondary);--mentioned: rgba(var(--alt-color), 0.4);--mentioned-hover: rgba(var(--alt-color), 0.2); --main-hover: rgba(var(--alt-color), 0.2);--main-hover-active: rgba(var(--alt-color), 0.8);--main-hover-selected: rgba(var(--alt-color), 0.5); --main-hover-accent: rgba(var(--alt-color), 0.1); --scrollbar-small: rgba(var(--alt-color), 0.2);--scrollbar-small-track: transparent;--scrollbar-large-thumb: rgba(var(--alt-color), 0.4); --scrollbar-large-track: rgba(var(--alt-color), 0.2);--scrollbar-small-scrollbar-color: rgba(var(--alt-color), 0.4); --scrollbar-small-scrollbar-color-track: rgba(var(--alt-color), 0.2);--default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;--special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;--red-gradient: 315deg, #AA3738 0%, #F04747 74%;--red-hsl: hsl(359, 63%, 53%);--yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;--yellow-hsl: hsl(46, 72%, 52%);--green-gradient: 315deg, #507a73 0%, #4b7c72  74%;--grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;--white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;--font-normal: 500;--font-hover: bold;--font-size-hover: 15px;--hover-transition: 0.1s linear;--transform-normal: scale(1);--hover-transform: scale(1.15);--setting-hover-transform: scale(1.025);--button-hover-transform: scale(1.03);--info-warning: var(--alt-color2);--help-warning: var(--alt-color2); --help-info: var(--alt-color2);--radio-group-dot: var(--alt-color);--shadow-stroke: 0 0 0 1px rgba(4,4,5,0.15);--shadow-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);--shadow-medium: 0 4px 4px rgba(0,0,0,0.16);--shadow-high: 0 8px 16px rgba(0,0,0,0.24);}
 
 /*
@@ -913,4 +913,17 @@ border-top:0;
 
 .cozyMessage-1DWF9U.groupStart-3Mlgv1:hover~.cozy-VmLDNB .timestamp-p1Df1m{
   display: block !important;
+}
+
+.attachButtonInner-2mwer8::after {
+  content: "DEV BUILD | " var(--version) !important;
+  position: fixed;
+  background-color: var(--main-colour2);
+  border-radius: var(--bubble-radius);
+  padding: 5px;
+  font-size: 14px;
+  bottom: 72px;
+  display: var(--version-display);
+  left: 340px;
+  font-style: normal;
 }
