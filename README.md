@@ -3,7 +3,8 @@ An Android 12 Material You Inspired Theme For Powercord
 
 # IN DEVELOPMENT
 
-![preview](![image](https://user-images.githubusercontent.com/71296232/154808281-d01016a2-63b0-4e91-863b-b4f4b0a1dab3.png))
+![preview](![Screenshot 2022-02-19 155552](https://user-images.githubusercontent.com/71296232/154808355-06b4ed54-1e32-4557-9254-22001e9e7dd3.png)
+)
 
 ## How To Install Material You Theme For Powercord?
 
