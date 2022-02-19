@@ -1,0 +1,12 @@
+{	
+"name": "Material You",
+"description": "A Flat Material Theme",
+"version": "0.0.1",
+"author": "Leeprky#2063",
+"license": "MIT",
+"theme": "MaterialYou-config.css",
+"splashTheme": "splash.css",
+"consent": "true",
+"preview": [""],
+"discord": "Ff3rqAYB89"
+}
