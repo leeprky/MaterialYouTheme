@@ -1,6 +1,8 @@
 # Material You(v0.0.1 - Latest)
 An Android 12 Material You Inspired Theme For Powercord
 
+![picture](https://i.imgur.com/GNOLne0.png)
+![picture](https://i.imgur.com/KdAE1G8.png)
 
 ![Screenshot 2022-02-19 155552](https://user-images.githubusercontent.com/71296232/154808355-06b4ed54-1e32-4557-9254-22001e9e7dd3.png)
 
