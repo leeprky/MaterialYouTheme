@@ -9,11 +9,6 @@
 */
 
 @import "https://leeprky.github.io/themes/MaterialYouTheme/main.css";
-@import url(https://raw.githack.com/DavidNyan10/GoogleMaterialIcons/main/GoogleMaterialIcons.css);
-
-@import url('https://corellanstoma.github.io/Menu-Icons/index.css');
-@import url("https://crearts-community.github.io/Settings-Icons/clients/powercord.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 /*
  ___  _____ __   __ _     ___  ___ 
@@ -919,4 +914,8 @@ border-top:0;
 .newMessagesBar-1hF-9G {
   top: 20px;
   border-radius: var(--bubble-radius);
+}
+
+.peopleColumn-1wMU14 .peopleListItem-u6dGxF, .listItemContents-2n2Uy9, .userInfo-2WpsYG, .peopleListItem-u6dGxF, .peopleColumn-1wMU14 .scrollerBase-_bVAAt, .peopleColumn-1wMU14 .userInfo-2WpsYG::before {
+  border-radius: var(--bubble-radius) !important;
 }
