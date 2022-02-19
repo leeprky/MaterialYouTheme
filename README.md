@@ -15,7 +15,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Materi
 
 # Activity Panels
 
-https://i.imgur.com/xROL3vY.gif
+![screen-gif](https://i.imgur.com/xROL3vY.gif)
 
 Darkmode
 
