@@ -13,6 +13,10 @@ In CMD
 cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/MaterialYouTheme
 ```
 
+# Activity Panels
+
+[tcxgq56imI](https://user-images.githubusercontent.com/71296232/154815072-0deaa248-1363-4884-bb2f-4ef5bc7cd79d.gif)
+
 Darkmode
 
 ![preview]()
