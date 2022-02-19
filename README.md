@@ -19,7 +19,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Materi
 
 ![screen-gif](https://i.imgur.com/qEIaWWK.gif)
 
-# Glasscord
+# Glasscord / Transparency Support
 
 ![picture](https://i.imgur.com/JQagBBj.png)
 
