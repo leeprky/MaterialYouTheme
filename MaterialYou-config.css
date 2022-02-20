@@ -240,7 +240,7 @@ l         ]     o !__./
   width: 95px;
   bottom: 03px;
   display: var(--version-display);
-  left: 350px;
+  right: 70px;
   font-style: normal;
 }
 .theme-dark .attachButtonInner-2mwer8::after {
@@ -1037,10 +1037,9 @@ border-top:0;
   display: flex;
 }
 
-.cozy-VmLDNB .timestamp-p1Df1m {
-  display: none;
+.mentioned-Tre-dv {
+  background-color: transparent !important;
 }
-
 .cozyMessage-1DWF9U.groupStart-3Mlgv1:hover~.cozy-VmLDNB .timestamp-p1Df1m{
   display: block !important;
 }
@@ -1160,15 +1159,6 @@ border-top:0;
 }
 .addButtonIcon-3HZ_2f {
     display: none;
-}
-
-
-.powercord-toast {
-  border-radius: var(--bubble-radius);
-}
-
-.powercord-toast .header {
-  background-color: var(--background-floating);
 }
 
 [class="channelTextArea-1FufC0 channelTextArea-1VQBuV channelTextAreaDisabled-1p2fQv"] {
