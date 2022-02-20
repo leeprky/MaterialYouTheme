@@ -8,7 +8,7 @@ An Android 12 Material You Inspired Theme For Powercord
 ![picture](https://i.imgur.com/Xvwak97.png)
 
 # + Grey And Amoled Themes
-![picture](https://i.imgur.com/Xvwak97.png)
+![picture](https://i.imgur.com/0rFWFLs.png)
 ![picture](https://i.imgur.com/011Q1yt.png)
 
 ## How To Install Material You Theme For Powercord?
