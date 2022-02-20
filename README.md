@@ -18,6 +18,8 @@ In CMD
 ```
 cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/MaterialYouTheme
 ```
+# Resizable 
+![screen-gif](https://i.imgur.com/K0i7aFU.gif)
 
 # Activity Panels
 
@@ -35,11 +37,11 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Materi
 
 # Darkmode Default
 
-![preview]()
+![preview](https://i.imgur.com/b3oGQYc.png)
 
 # Lightmode Default
 
-![preview]()
+![preview](https://i.imgur.com/0S7q2rq.png)
 
 # Extras 
 
