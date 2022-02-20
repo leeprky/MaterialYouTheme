@@ -26,6 +26,9 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Materi
 # Outdated Alerts
 ![picture](https://i.imgur.com/8eThtFs.png)
 
+# Theme Information
+![picture](https://i.imgur.com/ooCp4TI.png)
+
 Darkmode
 
 ![preview]()
