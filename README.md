@@ -1,4 +1,4 @@
-# Material You(v0.1.0 - Latest)
+# Material You(v0.5.0 - Latest)
 An Android 12 Material You Inspired Theme For Powercord
 
 ![picture](https://i.imgur.com/GNOLne0.png)
@@ -22,6 +22,9 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Materi
 # Glasscord / Transparency Support
 
 ![picture](https://i.imgur.com/JQagBBj.png)
+
+# Outdated Alerts
+![picture](https://i.imgur.com/8eThtFs.png)
 
 Darkmode
 
