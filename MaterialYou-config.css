@@ -1,3 +1,5 @@
+@import "https://leeprky.github.io/themes/MaterialYouTheme/main.css";
+@import "https://leeprky.github.io/themes/MaterialYouTheme/extras/powercord.css";
 /* 
  __  __  ___  _____  ___  ___  ___  ___  _       __   __  ___   _   _ 
 |  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |      \ \ / / / _ \ | | | |
@@ -6,18 +8,13 @@
                              .--------.
                              | v0.1.0 |
                              '--------'
-*/
 
-@import "https://leeprky.github.io/themes/MaterialYouTheme/main.css";
-
-/*
  ___  _____ __   __ _     ___  ___ 
 / __||_   _|\ \ / /| |   | __|/ __|
 \__ \  | |   \   / | |__ | _| \__ \
 |___/  |_|    |_|  |____||___||___/
-*/
 
-/* Material Blue */ /* Default */ /* */ 
+/* Material Blue */ /* Default */ /* */ /*
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-blue.css";
 
 /* Material Green */ /*
@@ -39,9 +36,18 @@
 /* Material AMOLED */ /*
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-amoled.css";
 :root {--material-black-greytone: 0% !important} /* 0% For Grey 100% For Colours */
-/* */
 
-/* 
+
+/* TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL FOR BLUR ON POWERCORD */
+/* Material Glass */ 
+
+@import "https://leeprky.github.io/themes/MaterialYouTheme/extras/glasscord.css";
+.transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
+
+/* USE TO SET A MANUAL BACKGROUND (IT FOLLOWS THE SCHEME OTHERWISE) */
+/*  :root {--glasscord-current-style-bg: black !important}
+
+/*
   ___  _   _  ___  _____   ___   __  __ 
  / __|| | | |/ __||_   _| / _ \ |  \/  |
 | (__ | |_| |\__ \  | |  | (_) || |\/| |
@@ -98,19 +104,6 @@
 }
 
 /*
-  ___  _     ___  ___  ___   ___   ___   ___  ___  
- / __|| |   /   \/ __|/ __| / __| / _ \ | _ \|   \ 
-| (_ || |__ | - |\__ \\__ \| (__ | (_) ||   /| |) |
- \___||____||_|_||___/|___/ \___| \___/ |_|_\|___/ 
-            REMOVE /* Above @import
-*/
-
-/*
-@import "https://leeprky.github.io/themes/MaterialYouTheme/extras/glasscord.css";
-.theme-dark {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}.theme-light {--glasscord-primary: var(--glasscord-current-style-bg) !important;}
-/* */
-
-/*
  ___ __  __ _____  ___  ___  ___ 
 | __|\ \/ /|_   _|| _ \/   \/ __|
 | _|  >  <   | |  |   /| - |\__ \
@@ -122,6 +115,7 @@
   --scrollbars: flex; /* Flex To See Scrollbars / None For None */
 
   --spotify-title-in-music-player: block; /* None To Remove Spotify From Spotify Player In Powercord / Block To Display It */
+  --topbar-label-buttons: flex; /* None To Remove Labels / Flex To Display Lables */
 
   --bubble-radius: 25px !important; /* Radius Of Things */
   --bubble-padding-small: 9px !important; /* The Space Around The Content Of The Bubble */
@@ -141,6 +135,23 @@
 
   --sidebar-fade: 92%;
 }
+
+/*
+ _  _   ___   ___  ___  ____  ___   _  _  _____  ___  _           ___  ___  ___ __   __ ___  ___  ___ 
+| || | / _ \ | _ \|_ _||_  / / _ \ | \| ||_   _|/   \| |         / __|| __|| _ \\ \ / /| __|| _ \/ __|
+| __ || (_) ||   / | |  / / | (_) || .  |  | |  | - || |__       \__ \| _| |   / \   / | _| |   /\__ \
+|_||_| \___/ |_|_\|___|/___| \___/ |_|\_|  |_|  |_|_||____|      |___/|___||_|_\  \_/  |___||_|_\|___/
+        THE SERVER LIST IS PLACED AT THE BOTTOM                        TOP CONFIG COMING SOON
+*/
+
+/* */ /* < remove
+@import url(leeprky.github.io/themes/MaterialYouTheme/extras/horizontallist.css);
+:root {
+  --HSL-server-icon-size: 40px;  
+  --HSL-server-spacing: 10px;  
+  --HSL-server-direction: column; /
+}
+/* */
 
 /*
    ___  _____    
@@ -169,9 +180,31 @@ l         ]     o !__./
 |___| \___||_|\_| \___/ |_|_\|___|
 */
 
-:root{--version-display: flex}
 :root {--outdated_materialyou-010: none !important; --version: "0.1.0.PC" !important; --build: "010" !important; --im-aware: none;
       --main-background-alternative: var(--main-background);--secondary-background-alternative: var(--secondary-background);--accent: var(--alt-color2);--green-color: var(--alt-color2); /* HEX ONLY */--green-color2: var(--alt-color); /* RGB ONLY */--green-bar-on: rgba(var(--alt-color), 0.3); /* RGBA ONLY */--green-bar-bg: var(--green-color); /* RGB ONLY */--green-slider-on: var(--green-color); /* RGB ONLY */--green-slider-off: rgba(var(--alt-color), 0.4); /* RGBA ONLY */--green-slider-dot: #fff;--rs-online-color: var(--main-colour2);  /* Colour for online status */--chatbox-colour: var(--background-secondary);--mentioned: rgba(var(--alt-color), 0.4);--mentioned-hover: rgba(var(--alt-color), 0.2); --main-hover: rgba(var(--alt-color), 0.2);--main-hover-active: rgba(var(--alt-color), 0.8);--main-hover-selected: rgba(var(--alt-color), 0.5); --main-hover-accent: rgba(var(--alt-color), 0.1); --scrollbar-small: rgba(var(--alt-color), 0.2);--scrollbar-small-track: transparent;--scrollbar-large-thumb: rgba(var(--alt-color), 0.4); --scrollbar-large-track: rgba(var(--alt-color), 0.2);--scrollbar-small-scrollbar-color: rgba(var(--alt-color), 0.4); --scrollbar-small-scrollbar-color-track: rgba(var(--alt-color), 0.2);--default-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;--special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;--red-gradient: 315deg, #AA3738 0%, #F04747 74%;--red-hsl: hsl(359, 63%, 53%);--yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;--yellow-hsl: hsl(46, 72%, 52%);--green-gradient: 315deg, #507a73 0%, #4b7c72  74%;--grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;--white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;--font-normal: 500;--font-hover: bold;--font-size-hover: 15px;--hover-transition: 0.1s linear;--transform-normal: scale(1);--hover-transform: scale(1.15);--setting-hover-transform: scale(1.025);--button-hover-transform: scale(1.03);--info-warning: var(--alt-color2);--help-warning: var(--alt-color2); --help-info: var(--alt-color2);--radio-group-dot: var(--alt-color);--shadow-stroke: 0 0 0 1px rgba(4,4,5,0.15);--shadow-low: 0 1px 0 rgba(18, 20, 36, 0.767),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);--shadow-medium: 0 4px 4px rgba(0,0,0,0.16);--shadow-high: 0 8px 16px rgba(0,0,0,0.24);}
+
+/* DEV VERSION DISPLAY */
+:root{--version-display: flex} /* Display Version Number Above Chat Box */
+.attachButtonInner-2mwer8::after {
+  content: "DEV BUILD | " var(--version) !important;
+  position: fixed;
+  border-radius: var(--bubble-radius);
+  padding: 1px;
+  font-size: 10px;
+  font-weight: 600;
+  width: 95px;
+  bottom: 03px;
+  display: var(--version-display);
+  left: 350px;
+  font-style: normal;
+}
+.theme-dark .attachButtonInner-2mwer8::after {
+  color: white;
+}
+.theme-light .attachButtonInner-2mwer8::after {
+  color: black;
+}
+/* */
 
 /*
  ___  ___   ___         ___  _  _ __   __ _____  _  _  ___  _  _   ___        ___  ___  _      ___  __      __
@@ -305,7 +338,15 @@ body {
   top: -3px;
   position: relative;
 }
+[class="icon-2xnN2Y"][viewBox="0 0 40 40"] {
+  position: absolute !important;
+  margin-left: 10px;
+  margin-top: 7px;
+}
 
+.iconWrapper-2awDjA::after {
+  display: var(--topbar-label-buttons);
+}
 
 
 .homeIcon-r0w4ny path {display:none}
@@ -410,16 +451,9 @@ transform: scale(0.95);
   .channelName-3KPsGw {
     transform: scale(0.93);
     margin-left: -5px;
+    text-transform: capitalize;
   }
-  .unread-36eUEm {
-    padding-right: 0px;
-    margin-left: 20px;
-    border-radius: 100%;
-    width: 12px;
-    height: 12px;
-    z-index: 999;
-    margin-top: -6px;
-  }
+
   @font-face {
     font-family: dash2space;
     unicode-range: U+002D;
@@ -885,6 +919,9 @@ border-top:0;
 .username-h_Y3Us {
   font-weight: 500;
 }
+.theme-dark .form-3gdLxP:before {
+  display: none;
+}
 
 .cozy-VmLDNB.wrapper-30-Nkg > .cozy-VmLDNB .timestamp-p1Df1m  {
   display: flex;
@@ -898,19 +935,6 @@ border-top:0;
   display: block !important;
 }
 
-.attachButtonInner-2mwer8::after {
-  content: "DEV BUILD | " var(--version) !important;
-  position: fixed;
-  background-color: var(--main-colour2);
-  border-radius: var(--bubble-radius);
-  padding: 5px;
-  font-size: 14px;
-  bottom: 72px;
-  display: var(--version-display);
-  left: 340px;
-  font-style: normal;
-}
-
 .newMessagesBar-1hF-9G {
   top: 20px;
   border-radius: var(--bubble-radius);
@@ -918,4 +942,59 @@ border-top:0;
 
 .peopleColumn-1wMU14 .peopleListItem-u6dGxF, .listItemContents-2n2Uy9, .userInfo-2WpsYG, .peopleListItem-u6dGxF, .peopleColumn-1wMU14 .scrollerBase-_bVAAt, .peopleColumn-1wMU14 .userInfo-2WpsYG::before {
   border-radius: var(--bubble-radius) !important;
+}
+
+.container-2giAcK {
+  position: relative;
+  border-radius: var(--bubble-radius);
+  background-color: var(--background-primary);
+  padding: var(--bubble-padding-small);
+  height: 40px;
+  margin: -8px 0 4px 8px;
+}
+[class="divider-3qUeLQ"] {
+  display: none;
+}
+
+.unreadBottom-3Ojk6R {
+  margin-bottom: 10px;
+  width: 110px;
+  margin-left: 50px;
+  border-radius: var(--bubble-radius);
+  padding: var(--bubble-padding-small);
+}
+
+.unreadTop-1DJtGv {
+  margin-top: 5px;
+  margin-left: 50px;
+  width: 110px;
+  border-radius: var(--bubble-radius);
+  padding: var(--bubble-padding-small);
+}
+.mention-3XBnnZ {
+  background-color: var(--main-colour2);
+}
+
+.mainContent-20q_Hp[tabindex="-1"][role="listitem"] {
+  position: relative;
+  border-radius: var(--bubble-radius);
+  width: 10px!important;
+  height: 40px;
+  padding: var(--bubble-padding-small);
+  margin: 0px -10px 0px -10px;
+  background-color: var(--background-primary) !important;
+}
+.wrapper-NhbLHG:hover .content-1gYQeQ {
+  border-radius: var(--bubble-radius) !important;
+}
+.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+  border-radius: var(--bubble-radius);
+  background-color: rgba(var(--main-colour), 0.5) !important;
+}
+.mainContent-20q_Hp:before {
+  border-radius: var(--bubble-radius) !important;
+}
+
+.wrapper-NhbLHG {
+  margin-top: 2px;
 }
