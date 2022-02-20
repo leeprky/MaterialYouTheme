@@ -1,5 +1,11 @@
 @import "https://leeprky.github.io/themes/MaterialYouTheme/main.css";
 @import "https://leeprky.github.io/themes/MaterialYouTheme/extras/powercord.css";
+
+/* Optional Imports */
+
+/* Google Emojis */
+@import url('https://raw.githack.com/Davr1/Discord-CSS-snippets/main/snippets/revolt_emojis.css');
+
 /* 
  __  __  ___  _____  ___  ___  ___  ___  _       __   __  ___   _   _ 
 |  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |      \ \ / / / _ \ | | | |
@@ -36,19 +42,7 @@
 
 /* Material AMOLED */ /* REMOVE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-amoled.css";
-:root {--material-black-greytone: 0% !important} /* 0% For Grey 100% For Colours */
-
-
-/* TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL FOR BLUR ON POWERCORD */
-/* Material Glass */ 
-
-/* REMOVE
-@import "https://leeprky.github.io/themes/MaterialYouTheme/extras/glasscord.css";
-.transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
-
-/* USE TO SET A MANUAL BACKGROUND (IT FOLLOWS THE SCHEME OTHERWISE) */
-/* REMOVE
-:root {--glasscord-current-style-bg: black !important}
+:root {--material-black-greytone: 60% !important} /* 0% For Grey 100% For Colours */
 
 /*
  _   _  ___  ___  ___        ___  _____ __   __ _     ___  ___ 
@@ -64,6 +58,24 @@
    Then Copy Link And Place Inside () */
    
    @import url();
+
+   /* */
+
+/*
+  ___  _     ___  ___  ___   ___   ___   ___  ___  
+ / __|| |   /   \/ __|/ __| / __| / _ \ | _ \|   \ 
+| (_ || |__ | - |\__ \\__ \| (__ | (_) ||   /| |) |
+ \___||____||_|_||___/|___/ \___| \___/ |_|_\|___/ 
+
+  TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL FOR BLUR ON POWERCORD */
+
+/* REMOVE
+@import "https://leeprky.github.io/themes/MaterialYouTheme/extras/glasscord.css";
+.transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
+
+/* USE TO SET A MANUAL BACKGROUND (IT FOLLOWS THE SCHEME OTHERWISE) */
+/* REMOVE
+:root {--glasscord-current-style-bg: black !important}
 
 /*
   ___  _   _  ___  _____   ___   __  __        ___  _____ __   __ _     ___ 
@@ -188,7 +200,16 @@ l         ]     o !__./
        |    "x______.^ 
        |           \    
        |            \
-*/
+
+  ___  ___  ___  ___   ___  _____  ___ 
+ / __|| _ \| __||   \ |_ _||_   _|/ __|
+| (__ |   /| _| | |) | | |   | |  \__ \
+ \___||_|_\|___||___/ |___|  |_|  |___/
+
+ > Thanks To:
+   
+
+
 
 /*
  ___   ___  _  _   ___   ___  ___ 
@@ -571,6 +592,10 @@ font-family: dash2space, var(--font-primary);
   margin-right: 10px;
 }
 
+.layout-1qmrhw {
+  border-radius: var(--bubble-radius);
+}
+
 .container-YkUktl {
   height: 45px;
   position: relative;
@@ -804,6 +829,67 @@ bottom: 0;
   flex: 1 1 auto;
 }
 
+:root {
+  --roundness: 50%;
+}
+
+.wrapper-28eC3z svg foreignObject {
+  border-radius: var(--roundness);
+  mask: none;
+}
+
+.wrapper-28eC3z svg foreignObject .folderIconWrapper-1oRIZr {
+  border-radius: 0;
+}
+
+.wrapper-28eC3z .upperBadge-1V6Iyi {
+  right: -5px;
+  top: -5px;
+}
+
+.wrapper-28eC3z .upperBadge-1V6Iyi .iconBadge-32fMme {
+  background-color: var(--background-secondary);
+  border-radius: var(--roundness);
+}
+
+.wrapper-28eC3z .lowerBadge-3WTshO {
+  bottom: -5px;
+  right: -5px;
+}
+
+.wrapper-28eC3z .lowerBadge-3WTshO .numberBadge-37OJ3S {
+  border-radius: var(--roundness);
+}
+
+.circleIconButton-1VxDrg {
+  color: var(--interactive-normal);
+}
+
+.circleIconButton-1VxDrg:hover {
+  background-color: var(--background-secondary);
+  color: var(--interactive-hover);
+}
+
+.childWrapper-1j_1ub:hover {
+  background-color: var(--background-secondary) !important;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+  background-color: var(--background-secondary) !important;
+}
+
+.wrapperSimple-Js2rIO {
+  border-radius: 0;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+  background-color: var(--background-tertiary) !important;
+}
+
+.guildIcon-2I5sfu {
+  border-radius: var(--roundness);
+}
+
 .wrapper-1VLyxH[data-bsi-radial-status="true"] .dots-1BwzZQ {
   overflow: visible;
 }
@@ -834,17 +920,6 @@ bottom: 0;
   clip-path: circle();
 }
 
-/* better name colors in chat & mlist light mode */
-.theme-light .username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P, .theme-light .roleColor-nA7BqX.desaturateUserColors-1O-G89{
-  filter:contrast(50%);
-  transition:filter .25s;
-}
-
-.theme-light .username-h_Y3Us.desaturateUserColors-1O-G89.clickable-31pE3P:hover, .theme-light .roleColor-nA7BqX.desaturateUserColors-1O-G89:hover{
-  filter:contrast(100%);
-}
-
-/*Everything Offline*/
 .tipTitle-3FYEQp{content:"";font-size: 0px;}
 .tipTitle-3FYEQp::before{content:"Hey...";font-size: 12px;}
 .tip-1AwED_{content:"";font-size: 0px;}
@@ -1015,3 +1090,57 @@ border-top:0;
 .wrapper-NhbLHG {
   margin-top: 2px;
 }
+
+#app-mount .side-2ur1Qk .item-3XjbnG, [type="button"] {
+  border-radius: var(--bubble-radius);
+}
+
+
+/* Popout Modal Small */
+/** Optional */
+@import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
+
+:root {
+    /** Number of role columns */
+    --roleslist-columns: 2;
+}
+
+.rolesList-3uZoaa {
+    display: grid;
+    grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
+    background: var(--background-tertiary);
+    padding: 12.5px;
+    gap: 4.5px;
+    border-radius: 8px;
+    max-height: 150px;
+    overflow: auto;
+}
+.rolesList-3uZoaa::-webkit-scrollbar {
+    width: 4.5px;
+}
+.rolesList-3uZoaa::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--background-modifier-hover);
+}
+.rolesList-3uZoaa > .role-2TIOKu {
+    margin: 0;
+    justify-content: center;
+}
+.rolesList-3uZoaa .roleCircle-1EgnFN {
+    flex-shrink: 0;
+}
+.rolesList-3uZoaa .roleName-2ZJJYR {
+    margin: auto;
+}
+
+.addButton-1_dZYu {
+    grid-column: 1 / span var(--roleslist-columns);
+}
+.addButton-1_dZYu::before {
+    content: attr(aria-label);
+    text-transform: capitalize;
+}
+.addButtonIcon-3HZ_2f {
+    display: none;
+}
+
