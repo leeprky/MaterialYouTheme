@@ -28,8 +28,9 @@
 @import "https://leeprky.github.io/themes/MaterialYouTheme/extras/betterdiscord.css";
 
 
-/* Optional Imports 
-   Google Emojis */
+/* Google Emojis */
+
+
 @import url('https://raw.githack.com/Davr1/Discord-CSS-snippets/main/snippets/revolt_emojis.css'); 
  
 /* Horizontal Server List (Bottom) */ /*
@@ -41,27 +42,40 @@
 \__ \  | |   \   / | |__ | _| \__ \
 |___/  |_|    |_|  |____||___||___/
 
-/* Material Blue - Default 
-   Add /* After When Choosing New Theme */ 
+/* Material Blue - Default */
+
+
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-blue.css";
 
-/* Material Green */ /* REMOVE
+/* Material Green */ 
+
+/* REMOVE LINE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-green.css";
 
-/* Material Red */ /* REMOVE
+/* Material Red */ 
+
+/* REMOVE LINE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-red.css";
 
-/* Material Pink */ /* REMOVE
+/* Material Pink */ 
+
+/* REMOVE LINE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-pink.css";
 
-/* Material Yellow */ /* REMOVE
+/* Material Yellow */ 
+
+/* REMOVE LINE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-yellow.css";
 
-/* Material Grey */ /* REMOVE
+/* Material Grey */ 
+
+/* REMOVE LINE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-grey.css";
 :root {--material-grey-greytone: 100% !important} /* 0% For Grey 100% For Colours */
 
-/* Material AMOLED */ /* REMOVE
+/* Material AMOLED */
+
+/* REMOVE LINE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-amoled.css";
 :root {--material-black-greytone: 60% !important} /* 0% For Grey 100% For Colours */
 
@@ -80,8 +94,6 @@
    
    @import url();
 
-   /* */
-
    
 /*
  _____  ___  ___  _  _  ___  ___  ___  ___  ___  _  _   ___ __   __
@@ -92,12 +104,13 @@
     TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED
           (GLASSCORD OPTIONAL FOR BLUR ON POWERCORD */
 
-/* REMOVE
+/* REMOVE LINE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/extras/glasscord.css";
 .transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
 
 /* USE TO SET A MANUAL BACKGROUND (IT FOLLOWS THE SCHEME OTHERWISE) */
-/* REMOVE
+
+/* REMOVE LINE
 :root {--glasscord-current-style-bg: black !important}
 
 /*
