@@ -1,0 +1,163 @@
+#app-mount {
+    .menu-1QACrS .item-1OdjEX:not(#user-context-user-volume) {
+      font-weight: var(--font-normal);
+      transition: var(--hover-transition);
+  
+      &.focused-3qFvc8, &:active {
+        font-size: var(--font-size-hover);
+        font-weight: var(--font-hover);
+        background: linear-gradient(var(--default-gradient));
+      }
+  
+      &.focused-3qFvc8.colorPremium-vwmYZQ, &:active.colorPremium-vwmYZQ {
+        background: linear-gradient(var(--special-gradient));
+      }
+  
+      &.focused-3qFvc8.colorDanger-3n-KnP, &:active.colorDanger-3n-KnP {
+        background: linear-gradient(var(--red-gradient));
+      }
+    }
+  
+    .wrapper-2vIMkT .button-3bklZh {
+      img, svg {
+        transform: var(--transform-normal);
+        transition: var(--hover-transition);
+      }
+  
+      &:hover {
+        img, svg {
+          transform: var(--hover-transform);
+          color: #fff;
+        }
+      }
+  
+      &:not(.dangerous-Y36ifs):hover {
+        background: linear-gradient(var(--default-gradient));
+        color: #fff;
+      }
+  
+      &.dangerous-Y36ifs:hover {
+        background: linear-gradient(var(--red-gradient));
+        color: #fff;
+      }
+    }
+  
+    #status-picker .item-1OdjEX {
+      &.focused-3qFvc8, &:active {
+        transition: var(--hover-transition);
+      }
+  
+      &.focused-3qFvc8 .statusItem-2hiCNB svg foreignObject .status-2DiCMd, &:active .statusItem-2hiCNB svg foreignObject .status-2DiCMd {
+        background: #fff !important;
+      }
+  
+      &.focused-3qFvc8#status-picker-online, &:active#status-picker-online {
+        background: linear-gradient(var(--green-gradient));
+      }
+  
+      &.focused-3qFvc8#status-picker-idle, &:active#status-picker-idle {
+        background: linear-gradient(var(--yellow-gradient));
+      }
+  
+      &.focused-3qFvc8#status-picker-dnd, &:active#status-picker-dnd {
+        background: linear-gradient(var(--red-gradient));
+      }
+  
+      &.focused-3qFvc8#status-picker-invisible, &:active#status-picker-invisible {
+        background: linear-gradient(var(--grey-gradient));
+      }
+    }
+  
+    .wrapper-3kah-n {
+      .childWrapper-1j_1ub .homeIcon-tEMBK1 {
+        transform: var(--transform-normal);
+        transition: var(--hover-transition);
+      }
+  
+      &.selected-1Drb7Z .childWrapper-1j_1ub {
+        background: linear-gradient(var(--default-gradient));
+  
+        .homeIcon-tEMBK1 {
+          transform: var(--hover-transform);
+        }
+      }
+    }
+  
+    .circleIconButton-jET_ig {
+      svg {
+        transform: var(--transform-normal);
+      }
+  
+      &.selected-ugP_am {
+        background: linear-gradient(var(--green-gradient));
+  
+        svg {
+          transform: var(--hover-transform);
+        }
+      }
+    }
+  
+    .side-2ur1Qk .item-3XjbnG {
+      transform: var(--transform-normal);
+      transition: var(--hover-transition);
+  
+      &:hover {
+        transform: var(--setting-hover-transform);
+      }
+  
+      &.selected-g-kMVV {
+        background: linear-gradient(var(--default-gradient));
+      }
+  
+      &[aria-controls="Discord Nitro-tab"] {
+        &:active, &[aria-selected=true] {
+          background: linear-gradient(var(--special-gradient));
+          color: #fff;
+        }
+      }
+  
+      &[aria-controls=GUILD_PREMIUM-tab] {
+        &:active, &[aria-selected=true] {
+          background: linear-gradient(var(--special-gradient));
+          color: #fff;
+        }
+      }
+    }
+  
+    .lookFilled-yCfaCM {
+      transform: var(--transform-normal);
+      transition: .15s linear;
+  
+      &:hover {
+        transform: var(--button-hover-transform);
+      }
+  
+      &.colorBrand-I6CyqQ:not(.buttonActive-Uc1jHx) {
+        background: linear-gradient(var(--default-gradient));
+      }
+  
+      &.colorGrey-2iAG-B, &.colorPrimary-2AuQVo {
+        background: linear-gradient(var(--grey-gradient));
+      }
+  
+      &.buttonColor-3bP3fX.disabled-158sUq {
+        background: linear-gradient(var(--grey-gradient));
+  
+        &:hover {
+          transform: var(--transform-normal);
+        }
+      }
+  
+      &.colorGreen-3y-Z79, &.buttonActive-Uc1jHx {
+        background: linear-gradient(var(--green-gradient));
+      }
+  
+      &.colorYellow-Pgtmch {
+        background: linear-gradient(var(--yellow-gradient));
+      }
+  
+      &.colorRed-rQXKgM {
+        background: linear-gradient(var(--red-gradient));
+      }
+    }
+  }

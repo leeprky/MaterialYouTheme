@@ -1,0 +1,72 @@
+/*  ------------------------------------------
+
+                Greenple Recolored
+                      v1.2
+                - leeprky#2063 -
+
+    ------------------------------------------  */
+
+/*
+:root {
+--green-color: red;
+--green-bar-on: #5c646480;
+--green-bar-bg: var(--green-color);
+--green-slider-on: var(--green-color);
+--green-slider-off: #404447fd;
+--green-slider-dot: #fff;
+}
+*/
+
+/* green-color */
+
+[class="item-3mHhwr item-3XjbnG themed-2-lozF"] {
+    &[aria-label="Add Friend"], &[data-item-id="ADD_FRIEND"] {
+      background-color: var(--green-color) !important;
+    }
+  }
+  
+  /* green-bar-on */
+  
+  .slider-1NC-Gf .bar-1Bhnl9 {
+    background-color: var(--green-bar-on) !important;
+  
+    .barFill-2Bh7CX {
+      background-color: var(--green-bar-bg) !important;
+    }
+  }
+  
+  /* green-bar-bg */
+  
+  /* green-slider-on */
+  
+  .container-2nx-BQ:not([style*="125"]), .bd-switch input:checked + .bd-switch-body {
+    background-color: var(--green-slider-on) !important;
+  }
+  
+  /* green-slider-off */
+  
+  .container-2nx-BQ[style="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"], .bd-switch-body {
+    background-color: var(--green-slider-off) !important;
+  }
+  
+  /* green-slider-dot */
+  
+  .slider-32CRPX rect, .defaultValue-19SZ-q .markValue-2U_-UG {
+    fill: var(--green-slider-dot) !important;
+  }
+  
+  /* Other */
+  
+  svg.slider-32CRPX svg {
+    display: none !important;
+  }
+  
+  .circleIconButton-1VxDrg {
+    color: var(--green-color);
+    background-color: var(--background-primary) !important;
+  
+    &:hover {
+      background-color: var(--green-color) !important;
+      color: white !important;
+    }
+  }
