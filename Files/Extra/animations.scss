@@ -1,0 +1,67 @@
+/*
+ ___  _  _  ___  __  __  ___  _____  ___   ___   _  _  ___ 
+/   \| \| ||_ _||  \/  |/   \|_   _||_ _| / _ \ | \| |/ __|
+| - || .  | | | | |\/| || - |  | |   | | | (_) || .  |\__ \
+|_|_||_|\_||___||_|  |_||_|_|  |_|  |___| \___/ |_|\_||___/
+*/
+
+/* Pop-out Animation */
+
+.emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+  }
+  
+  .menu-1QACrS {
+    transform-origin: bottom;
+  }
+  
+  @keyframes custom-menu-animation {
+    0% {
+      transform: scaleY(0);
+    }
+  
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+  /* Messages Slide In Chat */
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  
+  .message-2CShn3 {
+    animation: slide-up 0.4s ease;
+  }
+  
+  .panels-3wFtMD > .container-YkUktl {
+    .flex-2S1XBF > :not(:last-child) {
+      opacity: 0% !important;
+      width: 0px;
+      transition: all 0.2s ease-in-out;
+    }
+  
+    &:hover .flex-2S1XBF > :not(:last-child) {
+      opacity: 100% !important;
+      width: 32px;
+    }
+  }
+  
+  .base-2v-uc0 {
+    transition: 300ms;
+    transform: scale(0.97);
+  
+    &:hover {
+      transform: scale(0.99);
+      transition: 300ms;
+    }
+  }
