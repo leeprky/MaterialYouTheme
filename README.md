@@ -1,4 +1,4 @@
-# Material You(v0.9.0 - Latest)
+# Material You(v0.9.2 - Latest)
 An Android 12 Material You Inspired Theme For Powercord
 
 ![picture](https://i.imgur.com/GNOLne0.png)
@@ -19,7 +19,7 @@ In CMD
 cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/MaterialYouTheme
 ```
 
-## How To Install Material You Theme For Powercord 
+## How To Install Material You Theme For BetterDiscord?
 
 Via The Raw Github File:
 1. CLick > [Raw File](https://raw.githubusercontent.com/leeprky/MaterialYouTheme/main/betterdiscord/MaterialYouTheme.theme.css)
@@ -28,6 +28,7 @@ Via The Raw Github File:
 Via The BetterDiscord Website: (NOT WORKING)
 1. CLick > [Download]()
 2. Place in themes folder
+
 
 # Resizable 
 ![screen-gif](https://i.imgur.com/K0i7aFU.gif)
