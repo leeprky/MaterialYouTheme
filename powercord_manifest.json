@@ -1,12 +1,8 @@
-{	
-"name": "Material You SCSS ",
-"description": "A Flat Material Theme",
-"version": "0.9.1",
-"author": "Leeprky#2063",
-"license": "MIT",
-"theme": "MaterialYou-config.scss",
-"splashTheme": "splash.css",
-"consent": "true",
-"preview": [""],
-"discord": "Ff3rqAYB89"
+{
+    "version": "0.9.0",
+    "author": "Leeprky#2063",
+    "license": "MIT",
+    "theme": "theme.scss",
+    "name": "Material You",
+    "description": "An Android 12 Material You Inspired Discord Theme"
 }
