@@ -1,0 +1,106 @@
+
+  /* Total Members */
+  
+  .content-yTz4x3:before {
+    z-index: 2 !important;
+  }
+  
+  .total-members {
+    position: relative !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+  
+    &.sticky {
+      position: sticky !important;
+      top: 20px !important;
+      left: 50px !important;
+      background-color: var(--secondary-background) !important;
+      border-radius: VAR(--bubble-radius);
+      width: 120px;
+      height: 40px;
+      padding: var(--bubble-padding-small) !important;
+    }
+  
+    &.counts {
+      padding: 16px 8px !important;
+      font-size: 16px !important;
+      font-weight: 600 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      justify-content: center !important;
+  
+      &.small {
+        font-weight: normal !important;
+        flex-direction: row !important;
+        font-size: 14px !important;
+        top: 18px !important;
+  
+        .count + .count {
+          margin-left: 8px !important;
+        }
+      }
+  
+      + div {
+        margin-top: -24px !important;
+      }
+    }
+  
+    &.groups {
+      padding-bottom: 16px !important;
+  
+      .group {
+        &:first-of-type {
+          margin-top: 8px !important;
+          padding-top: 16px !important;
+          height: 34px !important;
+        }
+  
+        + .group {
+          padding-top: 0 !important;
+          height: 16px !important;
+        }
+      }
+  
+      + div h2:first-of-type {
+        padding-top: 0 !important;
+        height: 16px !important;
+      }
+    }
+  }
+  
+  .total-members-preview {
+    height: 425px !important;
+    margin-top: 16px !important;
+    border: 1px var(--background-secondary) solid !important;
+    overflow: hidden !important;
+  
+    > div {
+      height: calc(100% - 48px) !important;
+    }
+  
+    .buttonContainer-DHceWr, .toolbar-1t6TWx {
+      display: none !important;
+    }
+  }
+  
+  .total-members + div .addMembersButton-1eG9YC {
+    padding-top: 16px !important;
+  }
+  
+  .total-members-error {
+    padding: 20px !important;
+    margin-top: 20px !important;
+    color: var(--text-normal) !important;
+    border-color: #f04747 !important;
+    background-color: #f0474730 !important;
+  
+    p {
+      margin: 0 !important;
+      margin-bottom: 8px !important;
+    }
+  
+    code {
+      user-select: text;
+    }
+  }
