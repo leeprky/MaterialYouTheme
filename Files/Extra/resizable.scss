@@ -1,0 +1,24 @@
+/* 
+ ___  ___  ___  ___  ____ ___  ___  _     ___ 
+| _ \| __|/ __||_ _||_  //   \| _ )| |   | __|
+|   /| _| \__ \ | |  / / | - || _ \| |__ | _| 
+|_|_\|___||___/|___|/___||_|_||___/|____||___|
+*/
+
+@import url("https://maendisease.github.io/Float/Float.css");
+
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
+
+:root {
+  /* MinimalMode */
+  --header-height:40px;
+  --guildbar-width:56px;
+  --sidebar-width:240px;
+
+  /* Float */
+  --float-app-opacity:100%;
+  --float-app-transition-speed:0.5s;
+  --float-channel-width:240px;
+  --float-sidebar-hide-width:40px;
+  --float-guildbar-hover-speed:0.5s;
+}
