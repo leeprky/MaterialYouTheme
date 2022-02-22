@@ -259,14 +259,8 @@ body {
 
 @media only screen and (max-width: 940px) {
   .container-2o3qEW {
-     width: 65px !important;
+     width: 65px;
      transition: 500ms;
-  }
-  .membersGroup-2eiWxl, .content-1U25dZ {
-    display: none;
-  }
-  .container-2o3qEW:hover .content-1U25dZ {
-    display: block !important;
   }
   .container-2o3qEW:hover {
     width: 250px !important;
