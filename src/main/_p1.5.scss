@@ -1,0 +1,228 @@
+    /* Bubble Padding */
+    
+    .topic-11NuQZ {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-width: 0;
+        margin: 0 0 0 8px;
+        font-weight: 500;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 15px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: var(--headers-secondary);
+      }
+      
+      .title-17SveM {
+        background-color: rgba(var(--alt-color), 0.2);
+        border-radius: var(--bubble-radius);
+        padding: var(--bubble-padding-small);
+        height: 30px !important;
+        margin-left: 260px !important;
+        font-size: 15px;
+        text-transform: capitalize;
+      }
+      
+      .divider-q3P9HC {
+        background: rgba(var(--main-colour), 30%) !important;
+        border-radius: 100%;
+        width: 3px;
+        height: 15px;
+      }
+      
+      [class="followButton-1N-GGp button-f2h6uQ lookFilled-yCfaCM colorPrimary-2AuQVo sizeMin-DfpWCE grow-2sR_-F"] {
+        border-radius: var(--bubble-radius);
+        margin-left: 10px;
+      }
+      
+      .iconWrapper-2awDjA {
+        background-color: rgba(var(--alt-color), 0.2);
+        border-radius: var(--bubble-radius);
+        padding: var(--bubble-padding-small);
+        height: 30px !important;
+      }
+      
+      .chatContent-3KubbW, .bg-1QIAus {
+        background-color: var(--background-secondary);
+      }
+      
+      /* Channel List */
+      @font-face {
+        font-family: dash2space;
+        unicode-range: U+002D;
+        src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf) format("truetype"), url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2) format("woff2");
+      }
+      
+      #app-mount [data-list-item-id*="channels___upcoming-events-"] > div.name-28HaxV {
+        font-size: 14px;
+        font-family: dash2space, var(--font-primary);
+        text-transform: capitalize;
+      }
+      
+      .autocompleteRowVertical-EA9dCg[data-list-item-id*=channel-autocomplete] .autocompleteRowContentPrimary-1kUW9H .colorInteractiveActive-30E9n8, .content-2a4AW9 .emptyChannelIcon-1YdEz2 ~ .size32-5yOQel, .quickswitcher-pKcM9U .result-u66Ywh .match-20K5f5, .sidebar-1tnWFu .mainContent-20q_Hp[href] .channelName-3KPsGw, .title-31SJ6t .iconWrapper-2awDjA + .title-17SveM, .wrapper-1ZcZW-[class="wrapper-1ZcZW- mention interactive"] {
+        font-family: dash2space, var(--font-primary);
+        text-transform: capitalize;
+      }
+      
+      .sidebar-1tnWFu {
+        border-radius: 0px !important;
+      }
+      
+      .iconContainer-21RCa3 {
+        transform: scale(0.7);
+      }
+      
+      .channelName-3KPsGw {
+        transform: scale(0.93);
+        margin-left: -5px;
+        text-transform: capitalize;
+      }
+      
+      @font-face {
+        font-family: dash2space;
+        unicode-range: U+002D;
+        src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf) format("truetype"), url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2) format("woff2");
+      }
+      
+      .title-17SveM {
+        text-transform: capitalize;
+        font-family: dash2space, var(--font-primary);
+      }
+      
+      .guilds-2JjMmN {
+        width: 81.2px;
+        position: relative;
+        margin-top: 40px;
+        padding-bottom: 00px;
+      }
+      
+      .container-1NXEtd {
+        margin-top: 48px;
+        margin-bottom: 25px;
+      }
+      
+      .scroller-3X7KbA {
+        padding: 5.5px;
+        padding-top: 20px !important;
+      }
+      
+      .fade-1R6FHN {
+        -webkit-mask-image: linear-gradient(to bottom, black var(--sidebar-fade), transparent 100%);
+      }
+      
+      .platform-win .sidebar-1tnWFu, .container-1NXEtd {
+        overflow: visible;
+      }
+      
+      .platform-win {
+        .layers-OrUESM, .layers-1YQhyW, .layers-OrUESM > .layer-86YKbF, .container-1eFtFS {
+          overflow: visible;
+        }
+      }
+      
+      .searchAnswer-23w-CH, .searchFilter-2UfsDk, [data-offset-key="6ttlm-4-0"] {
+        background-color: var(--background-secondary) !important;
+      }
+      
+      .search-39IXmY {
+        margin: 0 8px;
+      }
+      
+      .searchBar-jGtisZ {
+        background-color: rgba(var(--alt-color), 0.2);
+        border-radius: var(--bubble-radius);
+        width: 82px;
+        transition: 300ms;
+        height: 30px !important;
+      }
+      
+      [class="search-1FM8Qc open-3y3yI_ focused-8aNhVB"] .searchBar-jGtisZ, [data-text="true"], [class="search-1FM8Qc open-3y3yI_"] .searchBar-jGtisZ {
+        width: 162px;
+        transition: 300ms;
+      }
+      
+      .searchBar-jGtisZ .icon-tZMHgY {
+        margin-right: 150px;
+        position: absolute;
+      }
+      
+      .icon-18rqoe {
+        color: var(--button-interactive) !important;
+        transform: scale(1.1) !important;
+        margin-top: 3px;
+        margin-left: -00px;
+      }
+      
+      .search-2Mwzzq .DraftEditor-root {
+        .public-DraftEditor-content, .public-DraftEditorPlaceholder-root {
+          color: var(--text) !important;
+          margin-top: 2px;
+          margin-left: 23px !important;
+        }
+      }
+      
+      .searchBar-jGtisZ {
+        margin-top: -1px;
+        margin-left: 0px;
+      }
+      
+      [class="container-2McqkF elevationBorderHigh-3drnJX"][style="width: 320px;"] {
+        margin-top: 15px !important;
+        position: absolute;
+        left: -190px !important;
+        border-radius: var(--bubble-radius);
+        background-color: var(--floating);
+      }
+      
+      .theme-dark .option-ayUoaq:after {
+        background: none;
+      }
+      
+      .members-3WRCEx {
+        padding-top: 50px;
+      }
+      .layout-1qmrhw {
+        margin-top: 10px;
+      }
+      
+      
+      [class="membersWrap-3NUR2t hiddenMembers-8kpYM0"] {
+        margin-top: -1px;
+        z-index: 1;
+      }
+      
+      .membersGroup-2eiWxl {
+        padding: 14px 22px 12px 16px;
+        height: 40px;
+      }
+      
+      .roleIcon-2cey4v {
+        margin-right: 10px;
+      }
+      
+      .layout-1qmrhw {
+        border-radius: var(--bubble-radius);
+      }
+      
+      .container-YkUktl {
+        height: 45px;
+        position: relative;
+        bottom: 20px;
+        background-color: var(--background-primary);
+        border-radius: var(--bubble-radius);
+      }
+      
+      .powercord-spotify.hover .container-YkUktl {
+        height: 135px;
+        position: relative;
+        background-color: var(--background-primary);
+        border-radius: var(--bubble-radius);
+        transition: 500ms;
+      }
+      .powercord-spotify {
+        transition: 500ms;
+      }
+      

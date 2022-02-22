@@ -1,33 +1,27 @@
+@import './src/base';
+@import './src/client/powercord.scss';
+
 /* 
  __  __  ___  _____  ___  ___  ___  ___  _       __   __  ___   _   _ 
 |  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |      \ \ / / / _ \ | | | |
 | |\/| || - |  | |  | _| |   / | | | - || |__     \   / | (_) || |_| |
 |_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|     |_|   \___/  \___/ 
                              .--------.
-                             | v0.9.2 |
+                             | v0.9.3 |
                              '--------' 
                 Last Updated: 22/02/2022 21:16PM (UK)
           Version: Powercord (https://https://powercord.dev/)
 */
 
-/* Required Imports */
-@import 'Files/files.scss';
-@import "Files/Extra/Clients/powercord.scss";
-
-/* Google Emojis */
-
-
-@import "https://raw.githack.com/Davr1/Discord-CSS-snippets/main/snippets/revolt_emojis.css";
-
+/* Optional Imports */
 /* Animations */
 
-
-@import "Files/Extra/animations.scss";
+@import './src/main/optional/animation.scss';
 
 /* Horizontal Server List (Bottom) */
 
-/* REMOVE
-@import 'files/Extra/horizontalserverlist.scss';
+/*
+@import './src/main/optional/horizontal.scss';
 
 /*
  ___  _____ __   __ _     ___  ___ 
@@ -98,7 +92,7 @@
 TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL FOR BLUR ON POWERCORD */
 
 /* REMOVE
-@import "files/Extra/glasscord.scss";
+@import "./src/main/glasscord";
 .transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
 
 /* REMOVE FOR CUSTOM BACKGROUND
@@ -228,7 +222,8 @@ l         ]     o !__./
 |___| \___||_|\_| \___/ |_|_\|___|
 */
 
-:root {--outdated_materialyou-092:none !important;--version:"0.9.2.PC" !important;--build:"092" !important;}
+:root {--outdated_materialyou-093:none !important;--version:"0.9.3.PC" !important;--build:"093" !important;}
+.peopleColumn-1wMU14, .container-1oAagU {background-color: var(--background-secondary) !important;}
 
 /* DEV VERSION DISPLAY */
 
