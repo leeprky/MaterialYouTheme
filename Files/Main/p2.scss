@@ -1,0 +1,488 @@
+
+.activityPanel-9icbyU {
+    height: 30px;
+    position: relative;
+    bottom: 25px;
+    background-color: var(--background-primary);
+    border-radius: var(--bubble-radius);
+    margin-top: 10px;
+  }
+  
+  #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.buttonActive-Uc1jHx) {
+    border-radius: var(--bubble-radius) !important;
+  }
+  
+  .actionButtons-2vEOUh {
+    margin-top: 4px;
+  }
+  
+  .container-1zzFcN {
+    height: 72px;
+    position: relative;
+    bottom: 25px;
+    margin-top: 5px;
+    background-color: var(--background-primary);
+    border-radius: var(--bubble-radius);
+  }
+  
+  :root {
+    --spotify-color:var(--main-colour2) !important;
+  }
+  
+  .powercord-spotify.hover {
+    .nameTag-sc-gpq, .spotify-buttons button {
+      margin-top: -38px;
+      transition: 300ms;
+    }
+  
+    .avatar-1EWyVD.spotify-cover {
+      top: -19px !important;
+      transform: scale(0.9);
+      position: relative;
+      transition: 300ms;
+    }
+  
+    .spotify-extra-controls {
+      margin-top: -35px;
+      transition: 300ms;
+    }
+  
+    [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz spotify-buttons"] [aria-label="Mute"] {
+      top: 5px;
+      display: flex !important;
+    }
+  }
+  
+  [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz spotify-buttons"] [aria-label="Mute"] {
+    display: none;
+  }
+  
+  .powercord-spotify.hover .title-338goq::after {
+    content: "Spotify";
+    position: absolute;
+    background-color: rgba(var(--main-colour), 50%);
+    border-radius: var(--bubble-radius);
+    padding: 2px;
+    right: 10px;
+    top: 10px;
+    width: 65px;
+    text-align: center;
+    font-size: 14px;
+    display: var(--spotify-title-in-music-player);
+  }
+  
+  .spotify-extra-controls {
+    position: relative;
+    top: -45px;
+    transition: 300ms;
+    border-radius: var(--bubble-radius);
+  }
+  
+  .powercord-spotify {
+    &.hover .spotify-seek {
+      position: relative;
+      top: -45px;
+      left: 15px;
+      width: 212px;
+      transition: 300ms;
+      border-radius: var(--bubble-radius);
+    }
+  
+    .spotify-seek-bar {
+      background-color: rgba(var(--alt-color), 30%);
+      border-radius: var(--bubble-radius);
+    }
+  }
+  
+  .spotify-seek-duration {
+    top: 22px;
+    left: -5px;
+    transform: scale(0.8);
+    position: relative;
+    border-radius: var(--bubble-radius);
+  }
+  
+  .spotify-seek.no-premium {
+    .spotify-seek-elements, .spotify-seek-bar {
+      display: none;
+    }
+  }
+  
+  .scrollableContainer-15eg7h {
+    background-color: var(--background-primary) !important;
+    border-radius: var(--bubble-radius) !important;
+  }
+  
+  .channelTextArea-1FufC0 {
+    background-color: transparent;
+  }
+  
+  .button-12Fmur {
+    border-radius: var(--bubble-radius);
+  }
+  
+  .header-3OsQeK {
+    position: fixed;
+    overflow: hidden;
+    top: 10px;
+    left: 65px;
+    z-index: 99999;
+    font-size: 14px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  
+    &:hover {
+      color: var(--button-interactive);
+    }
+  }
+  
+  [style="height: 84px;"] {
+    display: none;
+  }
+  
+  [class*="animatedContainer-"] {
+    opacity: 0.2 !important;
+  
+    > [class*="bannerImage-"] {
+      transition: margin .25s;
+    }
+  }
+  
+  :not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
+    opacity: .1 !important;
+    height: 168px;
+  }
+  
+  .animatedContainer-2laTjx {
+    box-shadow: none !important;
+  
+    &:after {
+      background: linear-gradient(0deg, var(--background-secondary) 30%, transparent 100%);
+      position: absolute;
+      content: '';
+      height: 30px;
+      width: 100%;
+      bottom: 0;
+    }
+  }
+  
+  .name-3Uvkvr {
+    color: var(--button-interactive);
+    max-width: 220px;
+  }
+  
+  [class*="jumpToPresentBar"] {
+    display: contents;
+  
+    > button {
+      &:first-child {
+        display: none;
+      }
+  
+      &:last-child {
+        position: absolute;
+        bottom: 24px;
+  
+        /* fixed the position relative to right part */
+        right: 22px;
+  
+        /* so it doesn't look so close/odd */
+        padding: 8px !important;
+        height: auto;
+        background-color: var(--background-primary);
+  
+        /* changed color to darker gray */
+        /*box-shadow: var(--elevation-high); I don't like the shadow */
+        border-radius: 100px;
+        display: flex;
+        font-size: 0;
+        color: transparent;
+        transition: font-size .2s .1s, color .2s, padding .4s .1s;
+      }
+    
+        svg {
+          order: -1;
+          margin: 0;
+          height: 24px;
+          width: 24px;
+          top: unset;
+          margin-right: 4px;
+          margin-left: 0;
+          margin-right: 0;
+          color: var(--text-normal);
+          transition: margin .6s;
+        }
+      }
+    
+      &:hover > button {
+        padding: 8px 18px !important;
+        font-size: 14px;
+        color: var(--text-normal);
+        transition: font-size .2s, color .2s .1s, padding .4s;
+    
+        svg {
+          margin-right: 2px;
+          margin-left: -6px;
+        }
+      }
+    }
+    
+    .repliedMessage-3Z6XBG {
+      background-color: VAR(--background-primary);
+      border-radius: var(--bubble-radius);
+      padding: 8px;
+    }
+    
+    :root {
+      --sidebar-width:240px;
+    
+      /* change if your theme resizes the sidebar */
+    }
+    
+    .chat-2ZfjoI {
+      &.threadSidebarOpen-1LSXvU {
+        resize: horizontal;
+        min-width: 400px;
+        max-width: calc(100vw - var(--sidebar-width) - 72px - 400px);
+      }
+    
+      &:not(.threadSidebarOpen-1LSXvU) {
+        width: unset !important;
+        flex: 1 1 auto;
+      }
+    }
+    
+    .threadSidebar-1o3BTy {
+      width: unset;
+      flex: 1 1 auto;
+    }
+    
+    .group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt, .unreadPill-3nEWYM, .unreadPillCap-2-iI4h, .group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {
+      background-color: rgba(var(--alt-color), 0.3);
+      background-color: rgba(var(--alt-color), 0.3);
+      background-color: rgba(var(--alt-color), 0.3);
+      border-radius: var(--bubble-radius);
+      padding: 0.5px;
+    }
+    
+    .isUnread-3Lojb- {
+      .content-3spvdd {
+        color: var(--alt-color2);
+        padding: var(--bubble-padding-small);
+      }
+    
+      .unreadPill-3nEWYM {
+        display: none;
+      }
+    }
+    
+    .unreadPillCap-2-iI4h {
+      display: none;
+    }
+    
+    .app-focused .isUnread-3Lojb- {
+      border-color: rgba(var(--alt-color), 0.5) !important;
+    }
+    
+    .unreadPill-3nEWYM, .unreadPillCap-2-iI4h {
+      padding: var(--bubble-padding-small);
+      margin-top: 10px;
+      margin-left: 0%;
+      position: relative;
+    }
+    
+    .unreadPillCapStroke-1nE1Q8, .unreadPillCap-2-iI4h {
+      display: none;
+    }
+    
+    :root {
+      --roundness:50%;
+    }
+    
+    .wrapper-28eC3z {
+      svg foreignObject {
+        border-radius: var(--roundness);
+        mask: none;
+    
+        .folderIconWrapper-1oRIZr {
+          border-radius: 0;
+        }
+      }
+    
+      .upperBadge-1V6Iyi {
+        right: -5px;
+        top: -5px;
+    
+        .iconBadge-32fMme {
+          background-color: var(--background-secondary);
+          border-radius: var(--roundness);
+        }
+      }
+    
+      .lowerBadge-3WTshO {
+        bottom: -5px;
+        right: -5px;
+    
+        .numberBadge-37OJ3S {
+          border-radius: var(--roundness);
+        }
+      }
+    }
+    
+    .circleIconButton-1VxDrg {
+      color: var(--interactive-normal);
+    
+      &:hover {
+        background-color: var(--background-secondary);
+        color: var(--interactive-hover);
+      }
+    }
+    
+    .childWrapper-1j_1ub:hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+      background-color: var(--background-secondary) !important;
+    }
+    
+    .wrapperSimple-Js2rIO {
+      border-radius: 0;
+    }
+    
+    .circleIconButton-1VxDrg.selected-2r1Hvo {
+      background-color: var(--green-color) !important;
+    }
+    
+    .guildIcon-2I5sfu {
+      border-radius: var(--roundness);
+    }
+    
+    .wrapper-1VLyxH[data-bsi-radial-status="true"] {
+      .dots-1BwzZQ {
+        overflow: visible;
+    
+        circle {
+          cy: -7.5;
+    
+          &:nth-child(1) {
+            cx: -8.5;
+          }
+    
+          &:nth-child(2) {
+            cx: -2.25;
+          }
+    
+          &:nth-child(3) {
+            cx: 4;
+          }
+        }
+      }
+    
+      foreignObject[mask*="typing"] {
+        mask: none;
+    
+        .avatar-b5OQ1N {
+          border-radius: 50%;
+        }
+      }
+    
+      .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
+        x: 1;
+        y: 1;
+        width: 30px;
+        height: 30px;
+        fill: rgba(0, 0, 0, 0.75);
+        clip-path: circle();
+      }
+    }
+    
+    /*Everything Offline*/
+    
+    .tipTitle-3FYEQp {
+      content: "";
+      font-size: 0px;
+    
+      &::before {
+        content: "Hey...";
+        font-size: 12px;
+      }
+    }
+    
+    .tip-1AwED_ {
+      content: "";
+      font-size: 0px;
+    
+      &::before {
+        content: "You're Offline bro...";
+        font-size: 16px;
+      }
+    }
+    
+    .problems-CvGwpb.slideIn-VAD-dp, .tip-1AwED_ > .keybindShortcut-3zF1P9.keybind-2rkdVo {
+      display: none;
+    }
+    
+    .container-2RRFHK.fixClipping-3GOd_d {
+      background: rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+    }
+    
+    .roleName-2ZJJYR {
+      overflow: auto;
+      text-overflow: unset;
+    
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    
+    .emoji.jumboable {
+      width: 5rem;
+      height: 5rem;
+      min-height: 5rem;
+    }
+    
+    /*message shape*/
+    
+    .cozy-VmLDNB.wrapper-30-Nkg {
+      padding-top: 1px;
+      padding-bottom: 1px;
+    }
+    
+    .cozyMessage-1DWF9U:not(.groupStart-3Mlgv1) > .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+      border-radius: 6px 15px 15px 6px;
+    }
+    
+    .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+      display: inline-block;
+      max-width: 650px;
+      margin: 0;
+      padding: 8px 12px 7px;
+      border-radius: var(--bubble-radius) !important;
+      position: relative;
+      overflow: visible;
+    }
+    
+    .container-2sjPya, .markup-eYLPri a, .embedFull-1HGV2S {
+      border-radius: var(--bubble-radius) !important;
+      border-color: var(--background-secondary) !important;
+    }
+    
+    [class="embedWrapper-1MtIDg embedFull-1HGV2S embed-hKpSrO markup-eYLPri"] {
+      width: fit-content;
+      min-width: 100px;
+    }
+    
+    /*bubble color*/
+    
+    .theme-light [data-is-author-self=false] .markup-eYLPri:not(:empty) {
+      background-color: #E4E6EB;
+    }
+    
+    .theme-dark [data-is-author-self=false] .markup-eYLPri:not(:empty) {
+      background-color: rgba(var(--alt-color), 0.1);
+    }
+    
+    [data-is-author-self=true] > .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+      background-image: linear-gradient(rgba(var(--alt-color), 0.3) 0%, rgba(var(--alt-color), 0.3) 100%);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
