@@ -276,3 +276,39 @@
   .theme-dark .option-2KkUJO:after {
     background: transparent !important;
   }
+
+  .theme-dark .perksModal-CLcR1c,   .theme-light .perksModal-CLcR1c {
+    background-color: var(--background-primary);
+  }
+
+  .theme-dark .headerClickable-zGQJz3, .theme-dark .headerDefault-1e6yjj, .theme-dark .perk-19D_HN, .theme-light .perk-19D_HN, .theme-dark .tierHeaderLocked-3ItHYn,   .theme-light .tierHeaderLocked-3ItHYn, .theme-dark .tierBody-3ju-rc, .theme-light .tierBody-3ju-rc {
+    background-color: var(--secondary-background);
+  }
+
+  .theme-dark .background-3xJH_4, .theme-dark .background-3xJH_4, .cardHeader-3sHuT1, .theme-dark .headerExpanded-1-zwDr, .theme-dark .changeDetails-1kMZqI, .theme-dark .auditLog-1NVAY0, .theme-dark .card-WWLYDO {
+    background-color: var(--background-secondary) !important ; 
+  }
+
+  .theme-dark .card-3JmxsM, .theme-dark .card-2b4UFN, .emptyCard-VX4hCk, .popout-1KHNAq {
+    background-color: VAR(--background-secondary) !important;
+  }
+
+.top-K_jibn .item-3XjbnG, .top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, .top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+  margin-left: 10px;
+  border-radius: 0px !important;
+  }
+  .titleText-35PD5k {
+    border-radius: 0px !important;
+  }
+  
+  .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    border-radius: var(--bubble-radius);
+    background-color: var(--background-primary);
+  }
+
+  .quickswitcher-pKcM9U, .quickswitcher-pKcM9U * {
+    border-radius: var(--bubble-radius);
+  }
+  .scroller-29cQFV {
+    background-color: var(--secondary-background);
+  }

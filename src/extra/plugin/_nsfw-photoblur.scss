@@ -1,0 +1,16 @@
+:root {
+    --blur-effect:blur(50px) !important;
+    --blur-timing:1s !important;
+  }
+  
+  .blur .embedWrapper-1MtIDg {
+    img, video {
+      transition: var(--blur-timing) !important;
+      filter: var(--blur-effect) !important;
+    }
+  
+    img:hover, video:hover {
+      transition: var(--blur-timing) !important;
+      filter: none !important;
+    }
+  }

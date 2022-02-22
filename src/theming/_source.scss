@@ -207,6 +207,11 @@
   
   .iconWrapper-2awDjA[aria-label="Threads"] svg.icon-2xnN2Y {
     top: 1px;
+    margin-left: 0px !important;
+    margin: 0px !important;
+  }
+  [class="icon-1ELUnB iconWrapper-2awDjA clickable-ZD7xvu"] {
+    margin-left: 10px !important; 
   }
   
   .container-ZMc96U.themed-Hp1KC_ {
@@ -251,9 +256,32 @@
     background-image: url(https://raw.githubusercontent.com/leeprky/leeprky.github.io/gh-pages/images/Themes/MaterialYouTheme/material-home-icon-light.png);
   }
   
-  @media only screen and (max-width: 1420px) {
+  /* Screen sizes */
+  @media only screen and (max-width: 1490px) {
     .toolbar-3_r2xA .iconWrapper-2awDjA::after {
       display: none;
+    }
+    .children-3xh0VB {
+      z-index: 9999 !important;
+    }
+    .focused-1xh-wG .searchBar-jGtisZ, .open-1F8u2c .searchBar-jGtisZ {
+      width: 120px;
+  }
+  }
+
+  @media only screen and (max-width: 980px) {
+    .container-2o3qEW {
+      width: 60px;
+    }
+
+    .membersGroup-2eiWxl {
+      font-size: 7px !important;
+    }
+    .roleIcon-2cey4v {
+      display: none;
+    }
+    .membersGroup-2eiWxl::after {
+      margin-left: -18px !important;
     }
   }
   
@@ -1883,7 +1911,80 @@
     background-color: var(--background-secondary);
     margin-left: -21px;
   }
+
+  .popout-1KHNAq {
+    margin-top: 5px;
+  }
   
   .container-32HW5s {
     border-radius: var(--bubble-radius) !important;
   }
+
+  .theme-dark .perksModal-CLcR1c,   .theme-light .perksModal-CLcR1c {
+    background-color: var(--background-primary);
+  }
+
+  .theme-dark .perk-19D_HN, .theme-light .perk-19D_HN, .theme-dark .tierHeaderLocked-3ItHYn,   .theme-light .tierHeaderLocked-3ItHYn, .theme-dark .tierBody-3ju-rc, .theme-light .tierBody-3ju-rc {
+    background-color: var(--secondary-background);
+  }
+
+  .theme-dark .headerExpanded-1-zwDr, .theme-dark .changeDetails-1kMZqI, .theme-dark .auditLog-1NVAY0, .theme-dark .card-WWLYDO {
+    border-radius: var(--bubble-radius);
+  }
+
+  .theme-dark .background-3xJH_4, .theme-dark .card-3JmxsM, .theme-dark .card-2b4UFN, .emptyCard-VX4hCk, .popout-1KHNAq {
+    border-radius: var(--bubble-radius) !important;
+  }
+
+
+  .theme-dark .tierHeaderLocked-30MLlO {
+    margin-bottom: 5px;
+  }
+
+  .enableContainer-2MEsKV {
+    margin-bottom: 5px;
+  }
+
+    /* Call */
+    .colorable-3rVGna.primaryDark-2UJt1G {
+      background-color: var(--alt-color2);
+    }
+    .colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
+      background-color: rgba(var(--alt-color), 0.5);
+    }
+  
+    .container-ZMc96U.transparent-1lUmft {
+      background-color: var(--background-primary);
+      position: fixed;
+      top: 0px !important;
+      left: 0 !important;
+    }
+
+    .list-obNEuP {
+      background-color: var(--background-secondary);
+    }
+    .footer-5ji8u1, .header-1w9Q93  {
+      background-color: var(--background-floating);
+    }
+    .messagesPopoutWrap-3zryHW {
+      border-radius: var(--bubble-radius);
+    }
+
+    .bannerImg-2PzH6z {
+      border-radius: 0px !important;
+    }
+
+    .membersGroup-2eiWxl.container-q97qHp {
+      margin-top: 20px !important; 
+    }
+    .member-2gU6Ar.container-1oeRFJ.clickable-28SzVr {
+      padding-top: 0px !important;
+    }
+
+    .content-1jQy2l:before {
+      margin-top: 63px;
+      margin-left: -1000px;
+      width: 10000px;
+      z-index: 99999;
+      position: fixed;
+    }

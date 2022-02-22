@@ -4,25 +4,20 @@
 | |\/| || - |  | |  | _| |   / | | | - || |__     \   / | (_) || |_| |
 |_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|     |_|   \___/  \___/ 
                              .--------.
-                             | v0.9.2 |
+                             | v0.9.3 |
                              '--------' 
                 Last Updated: 21/02/2022 14:49PM (UK)
           Version: Powercord (https://https://powercord.dev/)
 */
 
 /* Required Imports */
-@import 'files/files.scss';
-@import "files/Extra/Clients/powercord.scss";
-
-/* Google Emojis */
-
-
-@import "https://raw.githack.com/Davr1/Discord-CSS-snippets/main/snippets/revolt_emojis.css";
+@import '/src/base'; 
+@import "/src/client/powercord";
 
 /* Animations */
 
 
-@import "files/Extra/animations.scss";
+@import "/src/extra/optional/_animations.scss";
 
 /* Horizontal Server List (Bottom) */
 
@@ -227,7 +222,7 @@ l         ]     o !__./
 |___| \___||_|\_| \___/ |_|_\|___|
 */
 
-:root {--outdated_materialyou-092:none !important;--version:"0.9.2.PC" !important;--build:"092" !important;}
+:root {--outdated_materialyou-092: none !important;--version:"0.9.2.PC" !important;--build:"092" !important;}
 
 /* DEV VERSION DISPLAY */
 
