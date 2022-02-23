@@ -413,3 +413,13 @@
 [aria-label="Threads"] {
   margin-left: 10px !important;
 }
+
+
+  [aria-label="Open sticker picker"], [aria-label="Send a gift"] {
+    display: none
+  }
+
+.sendIcon-1HcEzu {color: var(--interactive-normal);}
+.sendIcon-1HcEzu:hover {
+    color: var(--interactive-active);
+}
