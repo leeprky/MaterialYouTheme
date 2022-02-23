@@ -1,0 +1,234 @@
+.threadSidebar-1o3BTy {
+    width: unset;
+    flex: 1 1 auto;
+  }
+  
+  .group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt, .unreadPill-3nEWYM, .unreadPillCap-2-iI4h, .group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {
+    background-color: rgba(var(--alt-color), 0.3);
+    background-color: rgba(var(--alt-color), 0.3);
+    background-color: rgba(var(--alt-color), 0.3);
+    border-radius: var(--bubble-radius);
+    padding: 0.5px;
+  }
+  
+  .isUnread-3Lojb- {
+    .content-3spvdd {
+      color: var(--alt-color2);
+      padding: var(--bubble-padding-small);
+    }
+  
+    .unreadPill-3nEWYM {
+      display: none;
+    }
+  }
+  
+  .unreadPillCap-2-iI4h {
+    display: none;
+  }
+  
+  .app-focused .isUnread-3Lojb- {
+    border-color: rgba(var(--alt-color), 0.5) !important;
+  }
+  
+  .unreadPill-3nEWYM, .unreadPillCap-2-iI4h {
+    padding: var(--bubble-padding-small);
+    margin-top: 10px;
+    margin-left: 0%;
+    position: relative;
+  }
+  
+  .unreadPillCapStroke-1nE1Q8, .unreadPillCap-2-iI4h {
+    display: none;
+  }
+  
+  :root {
+    --roundness:50%;
+  }
+  
+  .wrapper-28eC3z {
+    svg foreignObject {
+      border-radius: var(--roundness);
+      mask: none;
+  
+      .folderIconWrapper-1oRIZr {
+        border-radius: 0;
+      }
+    }
+  
+    .upperBadge-1V6Iyi {
+      right: -5px;
+      top: -5px;
+  
+      .iconBadge-32fMme {
+        background-color: var(--background-secondary);
+        border-radius: var(--roundness);
+      }
+    }
+  
+    .lowerBadge-3WTshO {
+      bottom: -5px;
+      right: -5px;
+  
+      .numberBadge-37OJ3S {
+        border-radius: var(--roundness);
+      }
+    }
+  }
+  
+  .circleIconButton-1VxDrg {
+    color: var(--interactive-normal);
+  
+    &:hover {
+      background-color: var(--background-secondary);
+      color: var(--interactive-hover);
+    }
+  }
+  
+  .childWrapper-1j_1ub:hover, .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
+    background-color: var(--background-secondary) !important;
+  }
+  
+  .wrapperSimple-Js2rIO {
+    border-radius: 0;
+  }
+  
+  .circleIconButton-1VxDrg.selected-2r1Hvo {
+    background-color: var(--green-color) !important;
+  }
+  
+  .guildIcon-2I5sfu {
+    border-radius: var(--roundness);
+  }
+  
+  .wrapper-1VLyxH[data-bsi-radial-status="true"] {
+    .dots-1BwzZQ {
+      overflow: visible;
+  
+      circle {
+        cy: -7.5;
+  
+        &:nth-child(1) {
+          cx: -8.5;
+        }
+  
+        &:nth-child(2) {
+          cx: -2.25;
+        }
+  
+        &:nth-child(3) {
+          cx: 4;
+        }
+      }
+    }
+  
+    foreignObject[mask*="typing"] {
+      mask: none;
+  
+      .avatar-b5OQ1N {
+        border-radius: 50%;
+      }
+    }
+  
+    .pointerEvents-9SZWKj[mask="url(#svg-mask-status-typing)"] {
+      x: 1;
+      y: 1;
+      width: 30px;
+      height: 30px;
+      fill: rgba(0, 0, 0, 0.75);
+      clip-path: circle();
+    }
+  }
+  
+  /*Everything Offline*/
+  
+  .tipTitle-3FYEQp {
+    content: "";
+    font-size: 0px;
+  
+    &::before {
+      content: "Hey...";
+      font-size: 12px;
+    }
+  }
+  
+  .tip-1AwED_ {
+    content: "";
+    font-size: 0px;
+  
+    &::before {
+      content: "You're Offline bro...";
+      font-size: 16px;
+    }
+  }
+  
+  .problems-CvGwpb.slideIn-VAD-dp, .tip-1AwED_ > .keybindShortcut-3zF1P9.keybind-2rkdVo {
+    display: none;
+  }
+  
+  .container-2RRFHK.fixClipping-3GOd_d {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+  }
+  
+  .roleName-2ZJJYR {
+    overflow: auto;
+    text-overflow: unset;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+  .emoji.jumboable {
+    width: 5rem;
+    height: 5rem;
+    min-height: 5rem;
+  }
+  
+  /*message shape*/
+  
+  .cozy-VmLDNB.wrapper-30-Nkg {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  .cozyMessage-1DWF9U:not(.groupStart-3Mlgv1) > .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+    border-radius: 6px 15px 15px 6px;
+  }
+  
+  .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+    display: inline-block;
+    max-width: 650px;
+    margin: 0;
+    padding: 8px 12px 7px;
+    border-radius: var(--bubble-radius) !important;
+    position: relative;
+    overflow: visible;
+  }
+  
+  .container-2sjPya, .markup-eYLPri a, .embedFull-1HGV2S {
+    border-radius: var(--bubble-radius) !important;
+    border-color: var(--background-secondary) !important;
+  }
+  
+  [class="embedWrapper-1MtIDg embedFull-1HGV2S embed-hKpSrO markup-eYLPri"] {
+    width: fit-content;
+    min-width: 100px;
+  }
+  
+  /*bubble color*/
+  
+  .theme-light [data-is-author-self=false] .markup-eYLPri:not(:empty) {
+    background-color: #E4E6EB;
+  }
+  
+  .theme-dark [data-is-author-self=false] .markup-eYLPri:not(:empty) {
+    background-color: rgba(var(--alt-color), 0.1);
+  }
+  
+  [data-is-author-self=true] > .contents-2MsGLg > .markup-eYLPri:not(:empty) {
+    background-image: linear-gradient(rgba(var(--alt-color), 0.3) 0%, rgba(var(--alt-color), 0.3) 100%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }

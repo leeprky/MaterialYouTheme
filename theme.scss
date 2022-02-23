@@ -37,7 +37,7 @@
 
 /* Material Blue - Default */
 
-/*
+
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-blue.css";
 
 /* Material Green */
@@ -47,7 +47,7 @@
 
 /* Material Red */
 
-
+/* REMOVE
 @import "https://leeprky.github.io/themes/MaterialYouTheme/styles/material-red.css";
 
 /* Material Pink */
@@ -102,7 +102,7 @@ TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL F
 .transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
 
 /* REMOVE FOR CUSTOM BACKGROUND
-:root {--glasscord-current-style-bg: black !important}
+:root {--glasscord-current-style-bg: black !important} /* CHANGE TO url() !important for image */
 
 /*
   ___  _   _  ___  _____   ___   __  __        ___  _____ __   __ _     ___ 
@@ -178,6 +178,8 @@ TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL F
   --spotify-title-in-music-player:block; /* Block For Title / none For None */
   --topbar-label-buttons:flex;   /* None To Remove Labels / Flex To Display Lables */
 
+  --server-icon-size: scale(0.8);
+
   --bubble-radius:25px !important;
   --bubble-padding-small:9px !important;
   --bubble-padding-large:12px !important;
@@ -229,6 +231,7 @@ l         ]     o !__./
 */
 
 :root {--outdated_materialyou-092:none !important;--version:"0.9.2.PC" !important;--build:"092" !important;}
+.peopleColumn-1wMU14 {background-color: var(--background-secondary) !important;}
 
 /* DEV VERSION DISPLAY */
 
