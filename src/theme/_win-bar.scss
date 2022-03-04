@@ -1,0 +1,48 @@
+.withFrame-2dL45i {
+    height: 15px;
+    margin-top: 0px;
+    position: relative;
+    background-color: transparent;
+  }
+  
+  .winButton-3UMjdg {
+    transform: scale(1);
+    height: 31px;
+    border-radius: var(--bubble-radius);
+    width: 32px;
+    right: 10px;
+    margin-top: 16px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  
+  [role="button"][aria-label="Close"]:hover {
+    background-color: var(--main-colour2);
+  }
+
+  .chatContent-3KubbW, .bg-1QIAus, .chatContent-3KubbW, .bg-1QIAus {
+    background-color: var(--background-primary) !important;
+  }
+  .scroller-kQBbkU {
+    background-color: var(--background-secondary);
+  }
+
+  
+  
+  .wordmark-2u86JB {
+    &:after {
+      color: rgb(247, 245, 245);
+      content: "" var(--wordmark-text) " | " var(--version) "";
+      display: var(--watermark);
+      font-size: 14.5px;
+      font-weight: 700;
+      position: absolute;
+      width: 4000px;
+      top: 10px;
+      left: -40%;
+    }
+  
+    > svg {
+      width: 0px;
+    }
+  }

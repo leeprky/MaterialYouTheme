@@ -1,0 +1,40 @@
+/*
+ __  __  ___  _____  ___  ___  ___  ___  _           ___  _      ___    ___   ___ 
+|  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |         | _ )| |    / _ \  / _ \ | _ \
+| |\/| || - |  | |  | _| |   / | | | - || |__       | _ \| |__ | (_) || (_) ||  _/
+|_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|      |___/|____| \___/  \___/ |_|  
+*/
+
+:root {
+    --style-name: "Material Bloop";
+    --style-creator: "Leeprky#2063";
+  }
+  
+  /* Material Blue */
+  .theme-dark {
+      /* Main Colours - Try Keep These The Same */
+      --main-colour: 87, 202, 154; /* RGB ONLY */
+      --main-colour2: #57ca9a; /* HEX ONLY */
+      --main-colour3: 155; /* HSL ONLY */
+  
+      /* Backgrounds */
+      --main-background: #1f2024;
+      --secondary-background: #18191b;
+      --tertiary: #131416;
+      --floating: #18191c;
+  
+      --headers: #FFFFFF; /* */
+      --headers-secondary: #b9bbbe;
+      
+      --namesusernames: #FFFFFF;
+      --text: #dcddde;
+      --text-positive1: var(--green-color);
+      --muted: #70757e;
+      --links: var(--alt-color2);
+      --button-interactive: #bebebe;
+      --button-interactive-hover: var(--main-colour2);
+      --button-interactive-active: #bebebe;
+      --button-interactive-muted: #5b5e61;
+      
+      --glasscord-current-style-bg: #1f202490 !important;
+    }

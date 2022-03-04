@@ -1,0 +1,138 @@
+.container-YkUktl {
+    height: 45px;
+    position: relative;
+    bottom: 20px;
+    background-color: var(--background-primary) !important; 
+    border-radius: var(--bubble-radius);
+  }
+  
+  .powercord-spotify.hover .container-YkUktl {
+    height: 135px;
+    position: relative;
+    background-color: var(--background-primary);
+    border-radius: var(--bubble-radius);
+  }
+
+  .activityPanel-9icbyU {
+    height: 30px;
+    position: relative;
+    bottom: 25px;
+    background-color: var(--background-primary);
+    border-radius: var(--bubble-radius);
+    margin-top: 10px;
+  }
+  
+  #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.buttonActive-Uc1jHx) {
+    border-radius: var(--bubble-radius) !important;
+  }
+  
+  .actionButtons-2vEOUh {
+    margin-top: 4px;
+  }
+  
+  .container-1zzFcN {
+    height: 72px;
+    position: relative;
+    bottom: 25px;
+    margin-top: 5px;
+    background-color: var(--background-primary);
+    border-radius: var(--bubble-radius);
+  }
+  
+  :root {
+    --spotify-color:var(--main-colour2) !important;
+  }
+  
+  .powercord-spotify.hover {
+    .nameTag-sc-gpq, .spotify-buttons button {
+      margin-top: -38px;
+      transition: 300ms;
+    }
+  
+    .avatar-1EWyVD.spotify-cover {
+      top: -19px !important;
+      transform: scale(0.9);
+      position: relative;
+      transition: 300ms;
+    }
+  
+    .spotify-extra-controls {
+      margin-top: -35px;
+      transition: 300ms;
+    }
+  
+    [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz spotify-buttons"] [aria-label="Mute"] {
+      top: 5px;
+      display: flex !important;
+    }
+  }
+  
+  [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz spotify-buttons"] [aria-label="Mute"] {
+    display: none;
+  }
+  
+  .powercord-spotify.hover .title-338goq::after {
+    content: "Spotify";
+    position: absolute;
+    background-color: rgba(var(--main-colour), 50%);
+    border-radius: var(--bubble-radius);
+    padding: 2px;
+    right: 10px;
+    top: 10px;
+    width: 65px;
+    text-align: center;
+    font-size: 14px;
+    display: var(--spotify-title-in-music-player);
+  }
+  
+  .spotify-extra-controls {
+    position: relative;
+    top: -45px;
+    transition: 300ms;
+    border-radius: var(--bubble-radius);
+  }
+  
+  .powercord-spotify {
+    &.hover .spotify-seek {
+      position: relative;
+      top: -45px;
+      left: 15px;
+      width: 212px;
+      transition: 300ms;
+      border-radius: var(--bubble-radius);
+    }
+  
+    .spotify-seek-bar {
+      background-color: rgba(var(--alt-color), 30%);
+      border-radius: var(--bubble-radius);
+    }
+  }
+  
+  .spotify-seek-duration {
+    top: 22px;
+    left: -5px;
+    transform: scale(0.8);
+    position: relative;
+    border-radius: var(--bubble-radius);
+  }
+  
+  .spotify-seek.no-premium {
+    .spotify-seek-elements, .spotify-seek-bar {
+      display: none;
+    }
+  }
+  
+  .scrollableContainer-15eg7h {
+    background-color: var(--background-primary) !important;
+    border-radius: var(--bubble-radius) !important;
+  }
+  
+  .channelTextArea-1FufC0 {
+    background-color: transparent;
+  }
+  
+  .button-12Fmur {
+    border-radius: var(--bubble-radius);
+  }
+
+  

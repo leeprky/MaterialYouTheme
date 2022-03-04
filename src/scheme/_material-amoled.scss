@@ -1,0 +1,73 @@
+/*
+ __  __  ___  _____  ___  ___  ___  ___  _           ___  __  __   ___   _     ___  ___  
+|  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |         /   \|  \/  | / _ \ | |   | __||   \ 
+| |\/| || - |  | |  | _| |   / | | | - || |__       | - || |\/| || (_) || |__ | _| | |) |
+|_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|      |_|_||_|  |_| \___/ |____||___||___/ 
+*/
+
+:root {
+    --style-name: "Material Amoled";
+    --style-creator: "Leeprky#2063";
+  }
+  
+  /* Material AMOLED */
+  .theme-dark {
+      /* Main Colours - Try Keep These The Same */
+      --main-colour: 0, 0, 0 !important; /* RGB ONLY */
+      --main-colour2: #000000 !important; /* HEX ONLY */
+      --main-colour3: 0 !important; /* HSL ONLY */
+  
+      /* Backgrounds */
+      --main-background: #000000 !important;
+      --secondary-background: #000000 !important;
+      --tertiary: #000000 !important;
+      --floating: #000000 !important;
+  
+      --headers: #808080 !important; 
+      --headers-secondary: #858585 !important;
+      
+      --namesusernames: #8c8c8c !important;
+      --text: #b6b6b6 !important;
+      --text-positive1: var(--green-color) !important;
+      --muted: #b1b1b1 !important;
+      --links: var(--alt-color2) !important;
+      --button-interactive: #c5c5c5 !important;
+      --button-interactive-hover: #c7c7c7 !important;
+      --button-interactive-active: #b6b6b6 !important;
+      --button-interactive-muted: #bbbbbb !important;
+  
+      --glasscord-current-style-bg: #00000058 !important;
+    }
+    
+    .theme-light {
+      /* Main Colours - Try Keep These The Same */
+      --main-colour: 0, 0, 0 !important; /* RGB ONLY */
+      --main-colour2: #000000 !important; /* HEX ONLY */
+      --main-colour3: 0 !important; /* HSL ONLY */
+  
+      /* Backgrounds */
+      --main-background: #000000 !important;
+      --secondary-background: #000000 !important;
+      --tertiary: #000000 !important;
+      --floating: #000000 !important;
+  
+      --headers: #808080 !important; 
+      --headers-secondary: #858585 !important;
+      
+      --namesusernames: #8c8c8c !important;
+      --text: #b6b6b6 !important;
+      --text-positive1: var(--green-color) !important;
+      --muted: #b1b1b1 !important;
+      --links: var(--alt-color2) !important;
+      --button-interactive: #c5c5c5 !important;
+      --button-interactive-hover: #c7c7c7 !important;
+      --button-interactive-active: #b6b6b6 !important;
+      --button-interactive-muted: #bbbbbb !important;
+  
+      --glasscord-current-style-bg: #0000009c !important;
+    }
+  
+    .appMount-2yBXZl, body {
+      filter: saturate(var(--material-black-greytone));
+    }
+  

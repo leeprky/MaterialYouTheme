@@ -1,0 +1,40 @@
+/*
+ __  __  ___  _____  ___  ___  ___  ___  _           _      ___   ___   ___ 
+|  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |         | |    / _ \ |   \ | __|
+| |\/| || - |  | |  | _| |   / | | | - || |__       | |__ | (_) || |) || _| 
+|_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|      |____| \___/ |___/ |___|
+*/
+
+:root {
+    --style-name: "Material Lode";
+    --style-creator: "Leeprky#2063";
+  }
+  
+  /* Material Blue */
+  .theme-dark {
+      /* Main Colours - Try Keep These The Same */
+      --alt-color: 56, 168, 151; /* RGB */
+      --alt-color2: #1bb69f; /* HEX */
+      --alt-color3: 171; /* HSL */
+  
+      /* Backgrounds */
+      --background-primary: #191f30;
+      --background-secondary: #252b3b;
+      --background-tertiary: #2c344d;
+      --background-floating: #2b3341;
+  
+      --header-primary: #EAE1DF;
+      --header-secondary: rgb(159, 161, 163);
+      
+      --text-normal: #f7f4f4;
+      --channels-default: #ddd5d3;
+      --text-positive1: var(--green-color) !important;
+      --text-muted: #a39897;
+      --links: var(--alt-color2) !important;
+      --interactive-normal: #EAE1DF;
+      --interactive-hover: #EAE1DF;
+      --interactive-active: #fff;
+      --interactive-muted: #505355;
+      
+      --glasscord-current-style-bg: #24262b93 !important;
+    }

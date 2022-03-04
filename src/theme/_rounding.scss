@@ -1,0 +1,176 @@
+
+/* ROUNDY THINGS ALL */
+
+.theme-dark {
+    --modal-border-radius:var(--bubble-radius);
+    --floating-border-radius:var(--bubble-radius);
+    --expanded-border-radius:var(--bubble-radius);
+    --border-radius:var(--bubble-radius) !important;
+  }
+  
+  .userPopout-3XzG_A, .lookInverted-2mDUMi.colorBrand-I6CyqQ, .cardWrapper-CyvwQv, .accountList-Wii_T5 {
+    border-radius: var(--modal-border-radius);
+  }
+  
+  .theme-dark {
+    .card-o7rAq-, .card-3IImnr {
+      border-radius: var(--modal-border-radius);
+    }
+  }
+  
+  .inputDefault-3FGxgL, .inputMaxLength-3n06SD, button[class*=lookOutlined].colorBrand-I6CyqQ {
+    border-radius: var(--modal-border-radius);
+  }
+  
+  .menu-1QACrS, .connectionHeader-Ixbb1s, .theme-dark .footer-31IekZ, .theme-light .footer-31IekZ, .peopleList-2VBrVI, .cardPrimaryOutline-1ofwVz, .theme-dark .footer-31IekZ, .popout-28p3zl {
+    border-radius: var(--expanded-border-radius);
+  }
+  
+  .elevationBorderHigh-3drnJX, .theme-dark .container-2McqkF, .contentWrapper-3vHNP2, .messagesPopoutWrap-3zryHW {
+    border-radius: var(--floating-border-radius);
+  }
+  
+  .container-2ebMPP, .root-SR8cQa, .footer-31IekZ, .root-g14mjS {
+    border-radius: var(--expanded-border-radius);
+  }
+  
+  .input-2z42oC {
+    border-radius: var(--modal-border-radius);
+  }
+  
+  .colorDefault-CDqZdO.focused-3qFvc8, .categoryItem-3zFJns.selectedCategoryItem-3X8ujp {
+    border-radius: var(--border-radius);
+  }
+  
+  .container-36u7Lw {
+    border-radius: var(--expanded-border-radius);
+  }
+  
+  .modeSelected-3DmyhH {
+    .content-1gYQeQ, &:hover .content-1gYQeQ {
+      border-radius: var(--border-radius);
+    }
+  }
+  
+  .clickable-28SzVr .layout-1qmrhw, .wrapper-NhbLHG .content-1gYQeQ {
+    border-radius: var(--border-radius);
+  }
+  
+  .modeSelected-3DmyhH {
+    .content-1gYQeQ, &:hover .content-1gYQeQ {
+      border-radius: var(--border-radius);
+    }
+  }
+  
+  .clickable-28SzVr .layout-1qmrhw, .colorDefault-CDqZdO.focused-3qFvc8, .theme-dark .option-2KkUJO.selected-rZcOL-, .colorDefault-CDqZdO.focused-3qFvc8 {
+    border-radius: var(--border-radius);
+  }
+  
+  .modalContent-3YXA7I {
+    border-radius: 12px;
+  }
+  
+  .theme-dark .footer-31IekZ {
+    border-radius: var(--border-radius);
+    margin-top: 5px;
+  }
+  
+  .lookFilled-yCfaCM.colorBrand-I6CyqQ, .theme-dark .message-G6O-Wv, .lookFilled-yCfaCM.colorRed-rQXKgM, .lookOutlined-3yKVGo.colorRed-rQXKgM {
+    border-radius: var(--border-radius);
+  }
+  
+  .userPopout-3XzG_A {
+    border-radius: var(--modal-border-radius);
+  }
+  
+  .theme-dark .lookOutlined-3yKVGo.colorGrey-2iAG-B, .container-2sjPya > *, .message-372Ods, .messages-23can0, .container-2O1UgZ, .inner-2pOSmK, .theme-dark .elevationHigh-28Pty4, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .auditLog-3jNbM6, .searchBar-zdmu7v {
+    border-radius: var(--border-radius);
+  }
+  
+  .theme-dark {
+    .inset-SbsSFp {
+      border-radius: var(--border-radius);
+    }
+  
+    .outer-2JOHae {
+      &.active-1W_Gl9, &.interactive-2zD88a:hover {
+        border-radius: var(--border-radius);
+      }
+    }
+  }
+  
+  .selected-1-Z6gm .layout-1qmrhw, .connection-YOVI9j {
+    border-radius: var(--border-radius);
+  }
+  
+  .scroller-Q9d9Di, .theme-dark .contentWrapper-3oy4Xo {
+    border-radius: 12px 0 0 12px;
+  }
+  
+  .inviteSplash-2Q0PLE {
+    border-radius: 0 12px 12px 0;
+  }
+  
+  .powercord-toast .buttons button {
+    border-radius: 12px;
+  }
+  
+  .wrapper-1ZcZW-, .connectedAccount-36nQx7, .listRow-hutiT_:hover, .messageGroupWrapper-1jf_7C, .note-QfFU8y textarea {
+    border-radius: var(--border-radius);
+  }
+  
+  .peopleListItem-u6dGxF {
+    &.active-2UF8Zh, &:hover {
+      border-radius: var(--border-radius);
+    }
+  }
+  
+  .clickable-vvKY2q .header-3OsQeK:hover, .selected-1GtAC5 .header-3OsQeK, .item-2idW98, .side-2ur1Qk .item-3XjbnG, .formNotice-2nS8ey, .powercord-account, .powercord-product, .lookFilled-yCfaCM.colorYellow-Pgtmch, .membershipDialogHouse1-R8jb0l, .peopleList-2VBrVI.grid .peopleListItem-u6dGxF, .css-1ye7vu0, .css-3vaxre-menu, .theme-dark .addGamePopout-3yePJc, .css-1yz4bi9-option, .css-1ba14n5-option, .container-3EtAkD, .roleRow-3LoHQ6:hover:not(.roleRowDisableHover-2TXfy-), .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+    border-radius: var(--border-radius);
+  }
+  
+  [role="radio"], .group-LWHoGI {
+    border-radius: var(--bubble-radius);
+  }
+  .theme-dark .codeRedemptionRedirect-2hYMSQ {
+    background-color: var(--background-secondary);
+    border-radius: var(--bubble-radius);
+  }
+  .item-2idW98[aria-checked=true] {
+    border-radius: var(--bubble-radius);
+  }
+  .theme-dark {
+    .lookFilled-yCfaCM.colorGrey-2iAG-B {
+      &:hover {
+        border-radius: var(--border-radius);
+      }
+  
+      border-radius: var(--border-radius);
+    }
+  
+    &.card-o7rAq- {
+      border-radius: var(--border-radius);
+    }
+  }
+  
+  .side-2ur1Qk .item-3XjbnG, .theme-dark .lookFilled-yCfaCM.colorGrey-2iAG-B, .draggableWrapper-1qxiU8, .enableContainer-1J91Aq, .settingsFormFieldWrapper-U99c9i, .welcomeChannel-1rFrIO, .tierHeaderContent-2-YfvN {
+    border-radius: var(--border-radius);
+  }
+  
+  .theme-dark {
+    &.card-2ART2V:before, .quickSelectPopout-2F0PXw, .quickSelectPopoutOption-2E2UmS:hover {
+      border-radius: var(--border-radius);
+    }
+  }
+  
+  .ThemeDownloaderApply:not(.applied) div {
+    &:hover {
+      border-radius: var(--border-radius);
+    }
+  
+    border-radius: var(--border-radius);
+  }
+  
+  .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .wrapper-2RrXDg, .noiseCancellationPopout-2-e5Xz, .connectionList-11Q_X-, .wrapper-2SplAX, .lookOutlined-3yKVGo.colorWhite-1H92hK, .tabBar-ra-EuL .item-3mHhwr, .lookFilled-yCfaCM {
+    border-radius: var(--border-radius);
+  }

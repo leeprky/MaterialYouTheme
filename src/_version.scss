@@ -1,0 +1,94 @@
+@import url(https://leeprky.github.io/themes/MaterialYouTheme/Version/powercord-version.css);
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before {
+    position: absolute;
+    left: 10% !important;
+    width: fit-content;
+    border-radius: 0 0 12px 12px !important;
+    top: 0px !important;
+    content: var(--theme) " Is outdated. Current: (" var(--version) ") | Latest: (" var(--version-latest) ") " !important;
+    display: block;
+    background-color: var(--alt-color2);
+    color: #fff;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 500;
+    height: auto;
+    line-height: 16px;
+    opacity: 1;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: var(--bubble-radius) !important;
+    visibility: unset;
+    white-space: pre-wrap;
+    top: 58px !important;
+    left: 700px !important;
+    bottom: unset;
+    right: unset;
+    max-width: 2000px;
+    min-width: unset;
+    max-height: unset;
+    min-height: unset;
+    transform: unset;
+    animation: unset;
+    z-index: 999999;
+    pointer-events: none;
+  }
+  
+  :root {
+    --version:"UNKOWN";
+    --build:"UNKNOWN";
+    --style-name:"UNKNOWN";
+    --style-creator:"UNKOWN";
+  }
+
+  :root {
+    --outdated_materialyou-094:none !important;
+    --version:"0.9.4.PC" !important;
+    --build:"094" !important;
+    --version-display:flex;
+    }
+  
+  .info-3pQQBb {
+    &::after {
+      content: "Latest " var(--version-latest-long) !important;
+      color: var(--alt-color2);
+      opacity: 0.4;
+      filter: brightness(100%);
+      display: block;
+      font-size: 12px;
+      font-family: var(--font-primary);
+      font-weight: 600;
+      margin-top: 5px;
+    }
+  
+    &::before {
+      content: "Current " var(--version-long) !important;
+      color: var(--alt-color2);
+      opacity: 1;
+      filter: brightness(100%);
+      display: block;
+      font-size: 12px;
+      font-family: var(--font-primary);
+      font-weight: 400;
+      position: absolute;
+      margin-top: 102px;
+    }
+  }
+  
+  .socialLinks-3ywLUf::after {
+    content: "Style: " var(--style-name) " | Creator: " var(--style-creator) !important;
+    color: var(--alt-color2);
+    opacity: 1;
+    filter: brightness(180%);
+    display: block;
+    font-size: 10px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    position: absolute;
+    margin-top: 132px;
+  }

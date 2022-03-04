@@ -1,0 +1,75 @@
+/*
+ __  __  ___  _____  ___  ___  ___  ___  _           ___   ___  ___   ___   ___   ___  ___  
+|  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |         |   \ |_ _|/ __| / __| / _ \ | _ \|   \ 
+| |\/| || - |  | |  | _| |   / | | | - || |__       | |) | | | \__ \| (__ | (_) ||   /| |) |
+|_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|      |___/ |___||___/ \___| \___/ |_|_\|___/ 
+*/
+
+:root {
+    --style-name: "Material Discord";
+    --style-creator: "Leeprky#2063";
+  }
+  
+  /* Material Blue */
+  .theme-dark {
+      /* Main Colours - Try Keep These The Same */
+      --main-colour: 88, 101, 242 !important; /* RGB ONLY */
+      --main-colour2: #5865f2 !important; /* HEX ONLY */
+      --main-colour3: 235 !important; /* HSL ONLY */
+  
+      /* Backgrounds */
+      --main-background: #36393f !important;
+      --secondary-background: #2f3136 !important;
+      --tertiary: #202225 !important;
+      --floating: #18191c !important;
+      --background-accent: #4f545c !important;
+  
+      --headers: #fff !important; 
+      --headers-secondary: #b9bbbe !important;
+      
+      --namesusernames: #d1e0f2 !important;
+      --text: #dcddde !important;
+      --text-positive1: var(--green-color) !important;
+      --muted: #72767d !important;
+      --links: var(--alt-color2) !important;
+      --button-interactive: #b9bbbe !important;
+      --button-interactive-hover: #dcddde !important;
+      --button-interactive-active: #fff !important;
+      --button-interactive-muted: #4f545c !important;
+      
+      --glasscord-current-style-bg: #1a1a1ad9 !important;
+    }
+    
+    .theme-light {
+      /* Main Colours - Try Keep These The Same */
+      --main-colour: 113, 164, 226 !important; /* RGB ONLY */
+      --main-colour2: #71a4e2 !important; /* HEX ONLY */
+      --main-colour3: 213 !important; /* HSL ONLY */
+  
+      /* Backgrounds */
+      --main-background: #fff !important;
+      --secondary-background: #f2f3f5 !important;
+      --tertiary: #e3e5e8 !important;
+      --floating: #ffffff !important;
+      --background-accent: #747f8d !important;
+  
+      --headers: #060607 !important; 
+      --headers-secondary: #4f5660 !important;
+      
+      --namesusernames: #272a2e !important;
+      --text: #2e3338 !important;
+      --text-positive1: var(--green-color) !important;
+      --muted: #747f8d !important;
+      --links: var(--alt-color2) !important;
+      --button-interactive: #4f5660 !important;
+      --button-interactive-hover: #2e3338 !important;
+      --button-interactive-active: #060607 !important;
+      --button-interactive-muted: #c7ccd1 !important;
+        
+      --glasscord-current-style-bg: #eeeeeeb9 !important;
+    }
+  
+
+    .iconWrapper-2awDjA {
+        background-color: VAR(--background-secondary) !important;
+    }

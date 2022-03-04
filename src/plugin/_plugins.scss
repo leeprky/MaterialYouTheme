@@ -1,0 +1,272 @@
+/*
+ ___  _     _   _   ___  ___  _  _        ___  _   _  ___  ___   ___   ___  _____ 
+| _ \| |   | | | | / __||_ _|| \| |      / __|| | | || _ \| _ \ / _ \ | _ \|_   _|
+|  _/| |__ | |_| || (_ | | | | .  |      \__ \| |_| ||  _/|  _/| (_) ||   /  | |  
+|_|  |____| \___/  \___||___||_|\_|      |___/ \___/ |_|  |_|   \___/ |_|_\  |_|  
+*/
+
+/* NSFW Indicator */
+
+.nsfw-text {
+  background-color: var(--alt-color2) !important;
+  border-radius: 3px !important;
+  padding: 0 6px !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  border-radius: 8px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  text-align: center !important;
+  -webkit-box-flex: 0 !important;
+  -ms-flex: 0 0 auto !important;
+  flex: 0 0 auto !important;
+}
+
+.nsfw-badge {
+  position: relative !important;
+  margin-left: 4px !important;
+  line-height: 0 !important;
+}
+
+/* */
+
+/* NSFW Photos Blur */
+
+:root {
+  --blur-effect:blur(50px) !important;
+  --blur-timing:1s !important;
+}
+
+.blur .embedWrapper-1MtIDg {
+  img, video {
+    transition: var(--blur-timing) !important;
+    filter: var(--blur-effect) !important;
+  }
+
+  img:hover, video:hover {
+    transition: var(--blur-timing) !important;
+    filter: none !important;
+  }
+}
+
+/* */
+
+/* In-App Notifacations - BD */
+
+.qwert-toast {
+  position: relative !important;
+  display: -webkit-inline-box !important;
+  pointer-events: all !important;
+  align-items: center !important;
+  min-height: 24px !important;
+  backdrop-filter: blur(5px) !important;
+  border-radius: var(--bubble-radius) !important;
+  box-shadow: var(--elevation-medium) !important;
+  padding: 10px 12px 10px 10px !important;
+  max-width: 50vw !important;
+  opacity: 1 !important;
+  margin-top: 10px !important;
+  color: white !important;
+  background: rgba(var(--alt-color), 0.2) !important;
+  overflow: hidden !important;
+  cursor: pointer !important;
+}
+
+/* */
+
+/* Total Members */
+
+.content-yTz4x3:before {
+  z-index: 2 !important;
+}
+
+.total-members {
+  position: relative !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+
+  &.sticky {
+    position: sticky !important;
+    top: 20px !important;
+    left: 50px !important;
+    background-color: var(--secondary-background) !important;
+    border-radius: VAR(--bubble-radius);
+    width: 120px;
+    height: 40px;
+    padding: var(--bubble-padding-small) !important;
+  }
+
+  &.counts {
+    padding: 16px 8px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    &.small {
+      font-weight: normal !important;
+      flex-direction: row !important;
+      font-size: 14px !important;
+      top: 18px !important;
+
+      .count + .count {
+        margin-left: 8px !important;
+      }
+    }
+
+    + div {
+      margin-top: -24px !important;
+    }
+  }
+
+  &.groups {
+    padding-bottom: 16px !important;
+
+    .group {
+      &:first-of-type {
+        margin-top: 8px !important;
+        padding-top: 16px !important;
+        height: 34px !important;
+      }
+
+      + .group {
+        padding-top: 0 !important;
+        height: 16px !important;
+      }
+    }
+
+    + div h2:first-of-type {
+      padding-top: 0 !important;
+      height: 16px !important;
+    }
+  }
+}
+
+.total-members-preview {
+  height: 425px !important;
+  margin-top: 16px !important;
+  border: 1px var(--background-secondary) solid !important;
+  overflow: hidden !important;
+
+  > div {
+    height: calc(100% - 48px) !important;
+  }
+
+  .buttonContainer-DHceWr, .toolbar-1t6TWx {
+    display: none !important;
+  }
+}
+
+.total-members + div .addMembersButton-1eG9YC {
+  padding-top: 16px !important;
+}
+
+.total-members-error {
+  padding: 20px !important;
+  margin-top: 20px !important;
+  color: var(--text-normal) !important;
+  border-color: #f04747 !important;
+  background-color: #f0474730 !important;
+
+  p {
+    margin: 0 !important;
+    margin-bottom: 8px !important;
+  }
+
+  code {
+    user-select: text;
+  }
+}
+
+/* Creation Date */
+
+.root-8LYsGj .date-YN6TCS {
+  top: 330px !important;
+  left: 20px;
+  text-overflow: wrap;
+}
+
+/* Channel DM's */
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+  background: var(--background-primary) !important;
+  padding: var(--bubble-padding-small) !important;
+  border-radius: var(--bubble-radius) !important;
+  width: fit-content !important;
+  margin-left: 30px !important;
+  margin-top: 20px;
+  border-radius: 0px;
+  margin-bottom: -50px;
+  z-index: 999;
+}
+
+.privateChannels-oVe7HL, .searchBar-3TnChZ {
+  margin-top: 30px;
+}
+
+.ChannelDms-channelmembers-wrap {
+  background-color: var(--background-secondary);
+}
+
+.membersGroup-2eiWxl {
+  margin-bottom: -5px;
+}
+
+.channelNotice-7cg_jN {
+  margin-top: -30px !important;
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+  margin-top: 60px;
+}
+
+.ChannelDms-channelpopout-buttons .iconWrapper-2awDjA {
+  padding-bottom: 00px;
+  margin-bottom: 0px;
+
+  &::after {
+    display: none;
+  }
+}
+
+/* */
+
+/* ... */
+
+/* */
+
+/* ... */
+
+/* */
+
+/* ... */
+
+/* */
+
+/* ... */
+
+/* */
+
+/* ... */
+
+/* */
+
+/* ... */
+
+/* */
+
+.nameAndDecorators-3ERwy2 .toprole-wrapper.role .role-2TIOKu, .rem-3kT9wc.botTag-7aX5WZ {
+  display: none;
+}
+
+.base-3bcbY3 {
+  margin-left: 42px;
+}
