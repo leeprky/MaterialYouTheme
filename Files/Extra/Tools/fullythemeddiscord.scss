@@ -142,10 +142,6 @@
     }
   }
   
-  .root-22AK9z {
-    background-color: var(--background-secondary) !important;
-  }
-  
   .theme-dark {
     .container-1ILvLB .header-2C89wJ, .root-g14mjS, .uploadModal-2ie9O_ {
       background-color: var(--background-secondary) !important;
@@ -214,8 +210,11 @@
   
   /* Tertiary */
   
-  .noticeRegion-qjyUVg [class="container-20TyK0 elevationHigh-28Pty4"], .theme-dark .colorPickerCustom-1swUKF.cardPrimaryOutline-1ofwVz, .css-3vaxre-menu, .main-jX9p1r, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .paymentHistory-2Zf4ZE, .theme-dark .inset-SbsSFp, .theme-light .inset-SbsSFp {
-    background-color: var(--background-tertiary) !important;
+  .accountProfileCard-lbN7n-, .theme-dark .colorPickerCustom-1swUKF.cardPrimaryOutline-1ofwVz, .css-3vaxre-menu, .main-jX9p1r, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .paymentHistory-2Zf4ZE, .theme-dark .inset-SbsSFp, .theme-light .inset-SbsSFp {
+    background-color: transparent !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: var(--background-secondary) !important;
   }
   
   /* Background Modifier Hover*/
@@ -275,4 +274,8 @@
   
   .theme-dark .option-2KkUJO:after {
     background: transparent !important;
+  }
+
+  .noticeRegion-qjyUVg [class="container-20TyK0 elevationHigh-28Pty4"]  {
+    background-color: var(--alt-color2) !important;
   }

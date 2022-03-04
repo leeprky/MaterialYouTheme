@@ -1731,6 +1731,27 @@ html {
   position: relative;
 }
 
+.channelNotice-K4UfZY {
+  background-color: var(--background-primary);
+  border-radius: var(--bubble-radius);
+  padding: 15px;
+  margin-top: 10px;
+  transform: scale(1.05);
+  position: relative;
+}
+
+.liveIndicator-TJKS7N {
+  background-color: var(--alt-color2);
+}
+
+.colorStatusGreen-2HKYOW {
+  color: var(--alt-color2);
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+  background-color: var(--alt-color2) !important;
+}
+
 .autocompleteRowVerticalSmall-2rVED0 .base-2v-uc0 {
   border-radius: var(--bubble-radius) !important;
   transition: 300ms;
@@ -1920,6 +1941,27 @@ span[class=inner-26JK4f] > * {
 
 .listItem-3SmSlK {
   transform: var(--server-icon-size) !important;
+}
+
+[class="powercord-product cardPrimary-3qRT__ card-16VQ8C"], .powercord-product, .noticeRegion-qjyUVg [class="container-20TyK0 elevationHigh-28Pty4"], .theme-dark .colorPickerCustom-1swUKF.cardPrimaryOutline-1ofwVz, .css-3vaxre-menu, .main-jX9p1r, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .paymentHistory-2Zf4ZE, .theme-dark .inset-SbsSFp, .theme-light .inset-SbsSFp {
+  margin-bottom: 16px;
+  background-color: var(--background-primary) !important;
+  border: 1px solid var(--background-accent) !important;
+}
+
+[class=author] {
+  color: var(--alt-color2) !important;
+  font-weight: bold !important;
+}
+
+.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {
+  margin-left: 90px !important;
+  position: relative;
+}
+
+[class="item-2idW98 marginBottom8-emkd0_ horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 itemFilled-1cPbtg"] {
+  background-color: var(--background-accent) !important;
+  border-radius: var(--bubble-radius) !important;
 }
 
 /*  ------------------------------------------
@@ -2576,8 +2618,11 @@ span[class*=botTagRegular], span[class^=questionMark-] {
 }
 
 /* Tertiary */
-.noticeRegion-qjyUVg [class="container-20TyK0 elevationHigh-28Pty4"], .theme-dark .colorPickerCustom-1swUKF.cardPrimaryOutline-1ofwVz, .css-3vaxre-menu, .main-jX9p1r, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .paymentHistory-2Zf4ZE, .theme-dark .inset-SbsSFp, .theme-light .inset-SbsSFp {
-  background-color: var(--background-tertiary) !important;
+.accountProfileCard-lbN7n-, .noticeRegion-qjyUVg [class="container-20TyK0 elevationHigh-28Pty4"], .theme-dark .colorPickerCustom-1swUKF.cardPrimaryOutline-1ofwVz, .css-3vaxre-menu, .main-jX9p1r, .cardPrimary-3qRT__, .cardPrimaryEditable-2mz_3i, .paymentHistory-2Zf4ZE, .theme-dark .inset-SbsSFp, .theme-light .inset-SbsSFp {
+  background-color: transparent !important;
+  border: 2px !important;
+  border-style: solid !important;
+  border-color: var(--background-primary) !important;
 }
 
 /* Background Modifier Hover*/
@@ -2747,16 +2792,15 @@ span[class*=botTagRegular], span[class^=questionMark-] {
                 - leeprky#2063 -
 
     ------------------------------------------  */
-/*
 :root {
---green-color: red;
---green-bar-on: #5c646480;
---green-bar-bg: var(--green-color);
---green-slider-on: var(--green-color);
---green-slider-off: #404447fd;
---green-slider-dot: #fff;
+  --green-color: var(--alt-color2) !important;
+  --green-bar-on: #5c646480;
+  --green-bar-bg: var(--green-color);
+  --green-slider-on: var(--green-color);
+  --green-slider-off: #404447fd;
+  --green-slider-dot: #fff;
 }
-*/
+
 /* green-color */
 [class="item-3mHhwr item-3XjbnG themed-2-lozF"][aria-label="Add Friend"], [class="item-3mHhwr item-3XjbnG themed-2-lozF"][data-item-id=ADD_FRIEND] {
   background-color: var(--green-color) !important;
@@ -2800,6 +2844,750 @@ svg.slider-32CRPX svg {
   color: white !important;
 }
 
+/*
+ *
+ *  SIDEBAR ICONS
+ *
+ */
+.sidebar-nqHbhN .item-3XjbnG:before,
+.sidebar-nqHbhN .ui-tab-bar-item:before,
+#bd-settings-sidebar .item-3XjbnG:before,
+#bd-settings-sidebar .ui-tab-bar-item:before {
+  position: absolute;
+  content: " ";
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 6px;
+  bottom: 0;
+  margin: auto 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.side-2ur1Qk .item-3XjbnG {
+  padding-left: 35px;
+}
+
+.sidebar-nqHbhN [aria-controls=my-account-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/person.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/person.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=profile-customization-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/edit.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/edit.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls="privacy-&-safety-tab"].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/security.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/security.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=authorized-apps-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/apps.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/apps.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=connections-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/link.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/link.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=subscriptions-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/subscription.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/subscription.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=discord-nitro-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/nitro.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/nitro.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=nitro-server-boost-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/server_boost.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/server_boost.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=library-inventory-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/gift.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/gift.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=billing-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/payment.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/payment.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=appearance-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/chat.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/chat.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=accessibility-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/accessibility.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/accessibility.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls="voice-&-video-tab"].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/mic.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/mic.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls="text-&-images-tab"].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/keyboard.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/keyboard.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=notifications-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/notifications.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/notifications.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=keybinds-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/space_bar.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/space_bar.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=language-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/translate.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/translate.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=windows-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/windows.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/windows.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=linux-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/linux.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/linux.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=streamer-mode-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/live_tv.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/live_tv.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=advanced-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/integrations.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/integrations.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=game-activity-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/gamepad.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/gamepad.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=overlay-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/picture_in_picture.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/picture_in_picture.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=settings-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=emotes-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/emoji.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/emoji.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=customcss-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/code.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/code.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=plugins-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/plugins.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/plugins.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=themes-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/themes.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/themes.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=pluginrepo-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/plugins.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/plugins.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=themerepo-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/themes.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/themes.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=changelog-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/list.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/list.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=hypesquad-online-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/hypesquad.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/hypesquad.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=experiments-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=developer-options-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/code.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/code.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=hotspot-options-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=pc-general-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/settings.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=pc-modulemanager-plugins-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/plugins.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/plugins.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=pc-modulemanager-themes-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/themes.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/themes.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=pc-updater-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/update.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/update.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=overview-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/dashboard.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/dashboard.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=permissions-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/lock_open.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/lock_open.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=roles-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/lock_open.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/lock_open.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=emoji-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/emoji.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/emoji.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=stickers-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/sticker-emoji.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/sticker-emoji.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=moderation-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/security.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/security.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=audit_log-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/audit_log.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/audit_log.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=integrations-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/integrations.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/integrations.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=widget-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/widgets.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/widgets.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=guild_templates-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/template.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/template.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=vanity_url-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/link.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/link.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=community-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/dashboard.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/dashboard.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=analytics-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/analytics.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/analytics.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=partner-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/partner_program.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/partner_program.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=discovery-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/discovery.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/discovery.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=member_verification-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/verified_user.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/verified_user.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=community_welcome-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/partner_program.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/partner_program.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=threads-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/chat.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/chat.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=guild_premium-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/server_boost.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/server_boost.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=members-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/people.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/people.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=instant_invites-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/person_add.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/person_add.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=bans-tab].item-3XjbnG:before {
+  background-color: var(--text-normal);
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/hammer.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/hammer.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=logout-tab].item-3XjbnG:before {
+  background-color: hsl(var(--alert-color));
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/exit_to_app.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/exit_to_app.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+.sidebar-nqHbhN [aria-controls=delete-tab].item-3XjbnG:before {
+  background-color: hsl(var(--alert-color));
+  -webkit-mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/delete.svg);
+  mask-image: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/outline/delete.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/*
+ *
+ *	FONTS
+ *
+ */
+/* FONTS -> GOOGLE SANS */
+:root {
+  --app-font: "Google Sans";
+  --code-font: Consolas,Andale Mono WT,Andale Mono,Lucida Console,Lucida Sans Typewriter,DejaVu Sans Mono,Bitstream Vera Sans Mono,Liberation Mono,Nimbus Mono L,Monaco,Courier New,Courier,monospace;
+}
+
+* {
+  font-family: "Google Sans";
+}
+
+/* FONTS -> GOOGLE SANS -> 400 */
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Regular-cyrillic.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Regular-greek.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Regular-latinext.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Regular-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* FONTS -> GOOGLE SANS -> 500 */
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Medium-cyrillic.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Medium-greek.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Medium-latinext.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Medium-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* FONTS -> GOOGLE SANS -> 700 */
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Bold-cyrillic.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Bold-greek.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Bold-latinext.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-Bold-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* FONTS -> GOOGLE SANS -> ITALIC */
+/* FONTS -> GOOGLE SANS -> ITALIC -> 400 */
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-RegularItalic-cyrillic.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-RegularItalic-greek.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-RegularItalic-latinext.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-RegularItalic-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* FONTS -> GOOGLE SANS -> ITALIC -> 500 */
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-MediumItalic-cyrillic.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-MediumItalic-greek.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-MediumItalic-latinext.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-MediumItalic-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* FONTS -> GOOGLE SANS -> ITALIC -> 700 */
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-BoldItalic-cyrillic.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-BoldItalic-greek.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-BoldItalic-latinext.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/fonts/GoogleSans-BoldItalic-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /*
  ___  _     _   _   ___  ___  _  _        ___  _   _  ___  ___   ___   ___  _____ 
 | _ \| |   | | | | / __||_ _|| \| |      / __|| | | || _ \| _ \ / _ \ | _ \|_   _|
@@ -3245,6 +4033,7 @@ TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL F
 */
 /* REMOVE
 .theme-dark {
+
   --main-colour: 90, 130, 179 !important;
   --main-colour2: #5a82b3 !important; 
   --main-colour3: 213 !important; 

@@ -6,17 +6,16 @@
 
     ------------------------------------------  */
 
-/*
-:root {
---green-color: red;
---green-bar-on: #5c646480;
---green-bar-bg: var(--green-color);
---green-slider-on: var(--green-color);
---green-slider-off: #404447fd;
---green-slider-dot: #fff;
-}
-*/
-
+    :root {
+      --green-color: var(--alt-color2) !important;
+      --green-bar-on: #5c646480;
+      --green-bar-bg: var(--green-color);
+      --green-slider-on: var(--green-color);
+      --green-slider-off: #404447fd;
+      --green-slider-dot-on: #fff;
+      --green-slider-dot-off: rgb(106, 106, 106);
+      }
+      
 /* green-color */
 
 [class="item-3mHhwr item-3XjbnG themed-2-lozF"] {
@@ -39,7 +38,7 @@
   
   /* green-slider-on */
   
-  .container-2nx-BQ:not([style*="125"]), .bd-switch input:checked + .bd-switch-body {
+  .container-2nx-BQ:not([style*="125"]), .bd-switch input:checked + .bd-switch-body, .allow-1h61-Z.selected-3jieYB {
     background-color: var(--green-slider-on) !important;
   }
   
@@ -52,7 +51,10 @@
   /* green-slider-dot */
   
   .slider-32CRPX rect, .defaultValue-19SZ-q .markValue-2U_-UG {
-    fill: var(--green-slider-dot) !important;
+    fill: var(--green-slider-dot-on) !important;
+  }
+  .slider-32CRPX[style="left: -3px;"] rect {
+    fill: var(--green-slider-dot-off) !important;
   }
   
   /* Other */
