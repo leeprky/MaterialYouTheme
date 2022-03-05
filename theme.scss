@@ -13,10 +13,10 @@
 // Required Imports
 
 @import "./src/main";
+
 @import "./client/pc/powercord";
 
 // Google Emojis
-
 // @import "./src/optional/emoji";
 
 // Animations
@@ -50,10 +50,10 @@
 // --------------------------------------------------- //
 
 // Material Grey
-// @import "./src/scheme/material-grey"; :root {--material-grey-greytone: 100% !important} /* 0% For Grey 100% For Colours */
+// @import "./src/scheme/material-grey";
 
 // Material AMOLED
-// @import "./src/scheme/material-amoled"; :root {--material-black-greytone: 60% !important} /* 0% For Grey 100% For Colours */
+// @import "./src/scheme/material-amoled";
 
 // --------------------------------------------------- //
 
@@ -79,7 +79,7 @@
 
 // Create Your Own Import Scheme / Colours
 
-// Then Copy Link And Place Inside () */
+// Then Copy Link And Place Inside ()
 // Delete the // then open that file and inside you can change/create your own colours.
 
 // @import './src/scheme/material-user-preset'
@@ -91,9 +91,8 @@
 
 // TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL FOR BLUR ON POWERCORD */
 
-// @import "./src/scheme/material-glass"; .transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
-
-// :root {--glasscord-current-style-bg: black !important} /* CHANGE TO url() !important for image */
+/* @import "./src/scheme/material-glass"; .transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
+   :root {--glasscord-current-style-bg: black !important} /* CHANGE TO url() !important for image */
 
 //  ___ __  __ _____  ___  ___  ___ 
 // | __|\ \/ /|_   _|| _ \/   \/ __|
@@ -105,18 +104,22 @@
   --HSL-server-icon-size:40px;
   --HSL-server-spacing:10px;
   --HSL-server-direction:column;
+  --scrollbars:flex;
 
-  --scrollbars:flex; /* None To Remove Labels / Flex To Display Scrollbars */
+  /* None To Remove Labels / Flex To Display Scrollbars */
 
   --display-notes-in-popout:none;
-  --spotify-title-in-music-player:block; /* Block For Title / none For None */
-  --topbar-label-buttons:flex; /* None To Remove Labels / Flex To Display Lables */
+  --spotify-title-in-music-player:block;
+
+  /* Block For Title / none For None */
+  --topbar-label-buttons:flex;
+
+  /* None To Remove Labels / Flex To Display Lables */
 
   --server-icon-size:scale(0.8);
   --bubble-radius:25px !important;
   --bubble-padding-small:9px !important;
   --bubble-padding-large:12px !important;
-
   --rs-avatar-shape:50%;
   --rs-online-color:#43b581 !important;
   --rs-idle-color:#faa61a;
@@ -160,4 +163,3 @@
 // | - || |) || |) |      | - || .  | \   /   | |  | __ | | | | .  || (_ |      | _ \| _| | |__ | (_) | \ \/\/ / 
 // |_|_||___/ |___/       |_|_||_|\_|  |_|    |_|  |_||_||___||_|\_| \___|      |___/|___||____| \___/   \_/\_/  
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-

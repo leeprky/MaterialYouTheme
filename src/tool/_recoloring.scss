@@ -66,6 +66,14 @@
 }
 */
 
+.theme-dark {
+  --toast-background: var(--main-background) !important;
+  --toast-header: var(--secondary-background) !important;
+  --toast-contents: var(--main-background) !important;
+  --toast-box-shadow: rgba(0, 0, 0, 0.582) !important;
+  --toast-border: rgba(0, 0, 0, 0.049) !important;
+}
+
 /* Floating */
 
 .theme-dark {

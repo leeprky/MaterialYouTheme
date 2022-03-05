@@ -13,8 +13,8 @@
   /* Material AMOLED */
   .theme-dark {
       /* Main Colours - Try Keep These The Same */
-      --main-colour: 0, 0, 0 !important; /* RGB ONLY */
-      --main-colour2: #000000 !important; /* HEX ONLY */
+      --main-colour: 39, 39, 39 !important; /* RGB ONLY */
+      --main-colour2: #272727 !important; /* HEX ONLY */
       --main-colour3: 0 !important; /* HSL ONLY */
   
       /* Backgrounds */
@@ -41,8 +41,8 @@
     
     .theme-light {
       /* Main Colours - Try Keep These The Same */
-      --main-colour: 0, 0, 0 !important; /* RGB ONLY */
-      --main-colour2: #000000 !important; /* HEX ONLY */
+      --main-colour: 39, 39, 39 !important; /* RGB ONLY */
+      --main-colour2: #272727 !important; /* HEX ONLY */
       --main-colour3: 0 !important; /* HSL ONLY */
   
       /* Backgrounds */
@@ -66,8 +66,3 @@
   
       --glasscord-current-style-bg: #0000009c !important;
     }
-  
-    .appMount-2yBXZl, body {
-      filter: saturate(var(--material-black-greytone));
-    }
-  
