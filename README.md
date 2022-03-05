@@ -22,7 +22,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/Materi
 ## How To Install Material You Theme For BetterDiscord?
 
 Via The Raw Github File:
-1. CLick > [Raw File](https://raw.githubusercontent.com/leeprky/MaterialYouTheme/main/betterdiscord/MaterialYouTheme.theme.css)
+1. CLick > [Raw File](https://raw.githubusercontent.com/leeprky/MaterialYouTheme/main/client/bd/material-you.theme.scss)
 > Right Click > Save as > Place In Themes Folder
 
 Via The BetterDiscord Website: (NOT WORKING)
