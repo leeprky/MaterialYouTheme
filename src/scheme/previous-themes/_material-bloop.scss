@@ -6,35 +6,37 @@
 */
 
 :root {
-    --style-name: "Material Bloop";
-    --style-creator: "Leeprky#2063";
+    --style-name: "Material Bloop" !important;
+    --style-creator: "Leeprky#2063" !important;
   }
   
   /* Material Blue */
   .theme-dark {
       /* Main Colours - Try Keep These The Same */
-      --main-colour: 87, 202, 154; /* RGB ONLY */
-      --main-colour2: #57ca9a; /* HEX ONLY */
-      --main-colour3: 155; /* HSL ONLY */
+      --main-colour: 87, 202, 154 !important; /* RGB ONLY */
+      --main-colour2: #57ca9a !important; /* HEX ONLY */
+      --main-colour3: 155 !important; /* HSL ONLY */
+
+      --green-slider-dot-on: #64e9b2 !important;
   
       /* Backgrounds */
-      --main-background: #1f2024;
-      --secondary-background: #18191b;
-      --tertiary: #131416;
-      --floating: #18191c;
+      --main-background: #1f2024 !important;
+      --secondary-background: #18191b !important;
+      --tertiary: #131416 !important;
+      --floating: #18191c !important;
   
-      --headers: #FFFFFF; /* */
-      --headers-secondary: #b9bbbe;
+      --headers: #FFFFFF !important; /* */
+      --headers-secondary: #b9bbbe !important;
       
-      --namesusernames: #FFFFFF;
-      --text: #dcddde;
-      --text-positive1: var(--green-color);
-      --muted: #70757e;
-      --links: var(--alt-color2);
-      --button-interactive: #bebebe;
-      --button-interactive-hover: var(--main-colour2);
-      --button-interactive-active: #bebebe;
-      --button-interactive-muted: #5b5e61;
+      --namesusernames: #FFFFFF !important;
+      --text: #dcddde !important;
+      --text-positive1: var(--green-color) !important;
+      --muted: #70757e !important;
+      --links: var(--alt-color2) !important;
+      --button-interactive: #bebebe !important;
+      --button-interactive-hover: var(--main-colour2) !important;
+      --button-interactive-active: #bebebe !important;
+      --button-interactive-muted: #5b5e61 !important;
       
       --glasscord-current-style-bg: #1f202490 !important;
     }

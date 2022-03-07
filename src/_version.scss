@@ -1,5 +1,21 @@
 @import url(https://leeprky.github.io/themes/MaterialYouTheme/Version/powercord-version.css);
 
+:root {
+  --outdated_materialyou-094:none !important;
+  --version:"0.9.4.PC" !important;
+  --build:"0942" !important;
+  --version-display:flex;
+  }
+
+  // 
+  //
+  //
+  //
+  //
+  // 
+  // 
+  // 
+
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before {
     position: absolute;
     left: 10% !important;
@@ -45,13 +61,6 @@
     --style-name:"UNKNOWN";
     --style-creator:"UNKOWN";
   }
-
-  :root {
-    --outdated_materialyou-094:none !important;
-    --version:"0.9.4.PC" !important;
-    --build:"0941" !important;
-    --version-display:flex;
-    }
   
   .info-3pQQBb {
     &::after {

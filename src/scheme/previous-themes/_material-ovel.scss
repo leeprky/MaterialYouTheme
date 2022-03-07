@@ -6,36 +6,38 @@
 */
 
 :root {
-    --style-name: "Material Lode";
-    --style-creator: "Leeprky#2063";
+    --style-name: "Material Lode" !important;
+    --style-creator: "Leeprky#2063" !important;
   }
   
   /* Material Blue */
   .theme-dark {
       /* Main Colours - Try Keep These The Same */
-      --alt-color: 76, 70, 163; 
-      --alt-color2: #4C46A3; 
-      --alt-color3: 244; /* HSL */
+      --alt-color: 76, 70, 163 !important; 
+      --alt-color2: #4C46A3 !important; 
+      --alt-color3: 244 !important; /* HSL */
+
+      --green-slider-dot-on: #4770a2 !important;
   
       /* Backgrounds */
-      --background-primary: #1E233A; 
-      --background-secondary: #1E233A; 
-      --background-tertiary: #14182b; 
-      --background-floating: #111422; 
+      --background-primary: #1E233A !important; 
+      --background-secondary: #1E233A !important; 
+      --background-tertiary: #14182b !important; 
+      --background-floating: #111422 !important; 
   
-      --header-primary: #fff; 
-      --header-secondary: #b9bbbe; 
+      --header-primary: #fff !important; 
+      --header-secondary: #b9bbbe !important; 
       
-      --text-normal: #ccc8fd; 
-      --text-muted: #535170; 
-      --text-link: var(--alt-color2); 
-      --channels-default: #b8b6d6; 
-      --interactive-normal: #b9bbbe; 
-      --interactive-hover: #ccc8fd; 
-      --interactive-hover-icons: var(--background-accent2); 
-      --interactive-active: #fefeff; 
-       --interactive-active-icons: var(--background-accent2); 
-      --interactive-muted: #535170; 
+      --text-normal: #ccc8fd !important; 
+      --text-muted: #535170 !important; 
+      --text-link: var(--alt-color2) !important; 
+      --channels-default: #b8b6d6 !important; 
+      --interactive-normal: #b9bbbe !important; 
+      --interactive-hover: #ccc8fd !important; 
+      --interactive-hover-icons: var(--background-accent2) !important; 
+      --interactive-active: #fefeff !important; 
+       --interactive-active-icons: var(--background-accent2) !important; 
+      --interactive-muted: #535170 !important; 
       
-      --glasscord-current-style-bg: #12182ebe; 
+      --glasscord-current-style-bg: #12182ebe !important; 
     }

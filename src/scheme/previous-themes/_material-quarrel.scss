@@ -6,16 +6,18 @@
 */
 
 :root {
-    --style-name: "Material Quarrel";
-    --style-creator: "Leeprky#2063";
+    --style-name: "Material Quarrel" !important;
+    --style-creator: "Leeprky#2063" !important;
   }
   
   /* Material Blue */
   .theme-dark {
       /* Main Colours - Try Keep These The Same */
-      --alt-color: 27, 94, 182; /* Discords Blurple Global | RGB - 27, 94, 182 */
-      --alt-color2: #1b5eb6; /* Discords Blurple Global | HEX - #1b5eb6 */
-      --alt-color3: 214; /* HSL */
+      --alt-color: 27, 94, 182 !important; /* Discords Blurple Global | RGB - 27, 94, 182 */
+      --alt-color2: #1b5eb6 !important; /* Discords Blurple Global | HEX - #1b5eb6 */
+      --alt-color3: 214 !important; /* HSL */
+
+      --green-slider-dot-on: #206bce !important;
   
       /* Backgrounds */
       --main-background: #24262b !important;
@@ -23,19 +25,19 @@
       --tertiary: #2f3236 !important;
       --floating: #18191c !important;
   
-      --header-primary: #fff; /* Main Header Colour - #fff */
-      --header-secondary: #b9bbbe; /* Secondary Header Colour - #b9bbbe */
+      --header-primary: #fff !important; /* Main Header Colour - #fff */
+      --header-secondary: #b9bbbe !important; /* Secondary Header Colour - #b9bbbe */
       
-      --text-normal: #dcddde; /* Chat Text - #dcddde */
-      --text-muted: #72767d; /* Channel Icon Colour - #72767d */
-      --text-link: var(--alt-color2); /* Text Link Globally - var(--alt-color2); */
-      --channels-default: #8e9297; /* Default Channel Names Colour - #8e9297 */
-      --interactive-normal: #b9bbbe; /* Interactive Buttons Normal Colour - #b9bbbe */
-      --interactive-hover: #dcddde; /* Interactive Buttons Hover Colour - #dcddde */
-      --interactive-hover-icons: var(--alt-color2); /* Interactive Buttons Hover Colour - var(--alt-color2);*/
-      --interactive-active: #fff; /* Interactive Buttons Active Colour - #fff */
-       --interactive-active-icons: var(--alt-color2); /* Interactive Buttons Icon Colour - var(--alt-color2); */
-      --interactive-muted: #4f545c; /* Interactive Buttons Muted Colour - #4f545c */
+      --text-normal: #dcddde !important; /* Chat Text - #dcddde */
+      --text-muted: #72767d !important; /* Channel Icon Colour - #72767d */
+      --text-link: var(--alt-color2) !important; /* Text Link Globally - var(--alt-color2) !important; */
+      --channels-default: #8e9297 !important; /* Default Channel Names Colour - #8e9297 */
+      --interactive-normal: #b9bbbe !important; /* Interactive Buttons Normal Colour - #b9bbbe */
+      --interactive-hover: #dcddde !important; /* Interactive Buttons Hover Colour - #dcddde */
+      --interactive-hover-icons: var(--alt-color2) !important; /* Interactive Buttons Hover Colour - var(--alt-color2) !important;*/
+      --interactive-active: #fff !important; /* Interactive Buttons Active Colour - #fff */
+       --interactive-active-icons: var(--alt-color2) !important; /* Interactive Buttons Icon Colour - var(--alt-color2) !important; */
+      --interactive-muted: #4f545c !important; /* Interactive Buttons Muted Colour - #4f545c */
       
       --glasscord-current-style-bg: #24262b93 !important;
     }

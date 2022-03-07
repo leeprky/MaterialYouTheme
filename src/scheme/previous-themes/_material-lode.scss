@@ -6,35 +6,37 @@
 */
 
 :root {
-    --style-name: "Material Lode";
-    --style-creator: "Leeprky#2063";
+    --style-name: "Material Lode" !important;
+    --style-creator: "Leeprky#2063" !important;
   }
   
   /* Material Blue */
   .theme-dark {
       /* Main Colours - Try Keep These The Same */
-      --alt-color: 56, 168, 151; /* RGB */
-      --alt-color2: #1bb69f; /* HEX */
-      --alt-color3: 171; /* HSL */
+      --alt-color: 56, 168, 151 !important; /* RGB */
+      --alt-color2: #1bb69f !important; /* HEX */
+      --alt-color3: 171 !important; /* HSL */
+
+      --green-slider-dot-on: #21ddc1 !important;
   
       /* Backgrounds */
-      --background-primary: #191f30;
-      --background-secondary: #252b3b;
-      --background-tertiary: #2c344d;
-      --background-floating: #2b3341;
+      --background-primary: #191f30 !important;
+      --background-secondary: #252b3b !important;
+      --background-tertiary: #2c344d !important;
+      --background-floating: #2b3341 !important;
   
-      --header-primary: #EAE1DF;
-      --header-secondary: rgb(159, 161, 163);
+      --header-primary: #EAE1DF !important;
+      --header-secondary: rgb(159, 161, 163) !important;
       
-      --text-normal: #f7f4f4;
-      --channels-default: #ddd5d3;
+      --text-normal: #f7f4f4 !important;
+      --channels-default: #ddd5d3 !important;
       --text-positive1: var(--green-color) !important;
-      --text-muted: #a39897;
+      --text-muted: #a39897 !important;
       --links: var(--alt-color2) !important;
-      --interactive-normal: #EAE1DF;
-      --interactive-hover: #EAE1DF;
-      --interactive-active: #fff;
-      --interactive-muted: #505355;
+      --interactive-normal: #EAE1DF !important;
+      --interactive-hover: #EAE1DF !important;
+      --interactive-active: #fff !important;
+      --interactive-muted: #505355 !important;
       
       --glasscord-current-style-bg: #24262b93 !important;
     }

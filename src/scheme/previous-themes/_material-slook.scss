@@ -6,16 +6,18 @@
 */
 
 :root {
-    --style-name: "Material Slook";
-    --style-creator: "Leeprky#2063";
+    --style-name: "Material Slook" !important;
+    --style-creator: "Leeprky#2063" !important;
   }
   
   /* Material Blue */
   .theme-dark {
       /* Main Colours - Try Keep These The Same */
-      --main-colour: 40, 86, 81; /* RGB ONLY */
-      --main-colour2: #285651; /* HEX ONLY */
-      --main-colour3: 173; /* HSL ONLY */
+      --main-colour: 40, 86, 81 !important; /* RGB ONLY */
+      --main-colour2: #285651 !important; /* HEX ONLY */
+      --main-colour3: 173 !important; /* HSL ONLY */
+
+      --green-slider-dot-on: #397c75 !important;
   
       /* Backgrounds */
       --main-background: #24262b !important;
