@@ -53,6 +53,12 @@
     top: 7.5px;
   }
   
-  .peopleColumn-1wMU14 .userInfo-2WpsYG::before, .peopleColumn-1wMU14 .peopleListItem-u6dGxF, .peopleColumn-1wMU14 .userInfo-2WpsYG, .listItemContents-2n2Uy9 {
+  .peopleColumn-1wMU14 .userInfo-2WpsYG::before, .peopleColumn-1wMU14 .peopleListItem-u6dGxF, .peopleColumn-1wMU14 .userInfo-2WpsYG, .listItemContents-2n2Uy9, .searchBar-3TnChZ .searchBarComponent-3N7dCG {
     border-radius: var(--bubble-radius) !important;
+  }
+  .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    text-align: center !important;
+  }
+  .contentRegionShownSidebar-fHXkEg {
+    background-color: var(--background-secondary) !important;
   }

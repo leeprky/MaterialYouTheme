@@ -1,14 +1,16 @@
 .attachButtonInner-2mwer8::after {
-    content: "DEV BUILD | " var(--version) !important;
+    content: "DEV BUILD (" var(--build) ")" !important;
     position: fixed;
     border-radius: var(--bubble-radius);
     padding: 1px;
     font-size: 10px;
     font-weight: 600;
-    width: 95px;
+    width: 125px;
     bottom: 03px;
     display: var(--version-display);
-    right: 70px;
+    left: 350px;
+    opacity: 0.8;
+    color: var(--alt-color2) !important;
     font-style: normal;
   }
   
