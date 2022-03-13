@@ -47,6 +47,9 @@ Via The BetterDiscord Website: (NOT WORKING)
 # Theme Information
 ![picture](https://i.imgur.com/ooCp4TI.png)
 
+# Linux / MacOS SUpport
+![picture](https://i.imgur.com/6a4WsIA.png)
+
 # Darkmode Default
 
 ![preview](https://i.imgur.com/b3oGQYc.png)
