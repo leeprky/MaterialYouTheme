@@ -94,8 +94,8 @@
 
 // TRANSPARENCY ENABLED IN BETTERDISCORD / POWERCORD REQUIRED (GLASSCORD OPTIONAL FOR BLUR ON POWERCORD */
 
-/* @import "./src/scheme/material-glass"; .transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
-   :root {--glasscord-current-style-bg: black !important} /* CHANGE TO url() !important for image */
+ @import "./src/scheme/material-glass"; .transparent {--glasscord-win-blur: blurbehind;--glasscord-linux-blur: true;--glasscord-macos-vibrancy: fullscreen-ui;--background-accent: var(--glasscord-accent); --background-floating: var(--glasscord-floating); --glasscord-primary: var(--glasscord-current-style-bg) !important;}
+//   :root {--glasscord-current-style-bg: black !important} /* CHANGE TO url() !important for image */
 
 //  ___ __  __ _____  ___  ___  ___ 
 // | __|\ \/ /|_   _|| _ \/   \/ __|
