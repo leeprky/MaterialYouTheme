@@ -1,7 +1,7 @@
 /**
  * @name Material You
  * @author Leeprky#2063
- * @version 0.9.0
+ * @version 0.9.5
  * @description An Android 12 Inspired Material You Theme
  * @source https://github.com/leeprky/MaterialYouTheme
  * @updateUrl https://raw.githubusercontent.com/leeprky/MaterialYouTheme/main/betterdiscord/MaterialYouTheme.theme.css
@@ -17,7 +17,7 @@
 | |\/| || - |  | |  | _| |   / | | | - || |__     \   / | (_) || |_| |
 |_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|     |_|   \___/  \___/ 
                              .--------.
-                             | v0.9.0 |
+                             | v0.9.5 |
                              '--------' 
                 Last Updated: 20/02/2022 23:23PM (UK)
           Version: BetterDiscord (https://betterdiscord.app/)
@@ -195,6 +195,13 @@
   --bubble-padding-large: 12px !important; /* The Space Around The Content Of The Bubble */
 
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+ 
+  --win-bar-color-close: #945151;
+  --win-bar-color-close-inside: #ff8d8d;
+  --win-bar-color-maximise: #bdb368;
+  --win-bar-color-maximise-inside: #fff291;
+  --win-bar-color-minimise: var(--alt-color2);
+  --win-bar-color-minimise-inside: var(--button-interactive-active);
 
   --rs-online-color: #43b581 !important; /* Colour for online status */
   --rs-idle-color: #faa61a; /* Colour for idle status */
@@ -252,16 +259,8 @@ l         ]     o !__./
 /* DEV VERSION DISPLAY */
 :root{--version-display: flex} /* Display Version Number Above Chat Box */ /*
 
-
-
-
  ___  ___   ___         ___  _  _ __   __ _____  _  _  ___  _  _   ___        ___  ___  _      ___  __      __
 /   \|   \ |   \       /   \| \| |\ \ / /|_   _|| || ||_ _|| \| | / __|      | _ )| __|| |    / _ \ \ \    / /
 | - || |) || |) |      | - || .  | \   /   | |  | __ | | | | .  || (_ |      | _ \| _| | |__ | (_) | \ \/\/ / 
 |_|_||___/ |___/       |_|_||_|\_|  |_|    |_|  |_||_||___||_|\_| \___|      |___/|___||____| \___/   \_/\_/  
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-
-
-
-
