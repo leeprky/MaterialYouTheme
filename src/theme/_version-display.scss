@@ -1,4 +1,4 @@
-.attachButtonInner-2mwer8::after {
+.container-YkUktl::after {
     content: "DEV BUILD (" var(--build) ")" !important;
     position: fixed;
     border-radius: var(--bubble-radius);
@@ -8,16 +8,15 @@
     width: 125px;
     bottom: 03px;
     display: var(--version-display);
-    left: 350px;
+    left: 90px;
     opacity: 0.8;
-    color: var(--alt-color2) !important;
     font-style: normal;
   }
   
-  .theme-dark .attachButtonInner-2mwer8::after {
-    color: white;
+  .theme-dark .container-YkUktl::after {
+    color: white !important;
   }
   
-  .theme-light .attachButtonInner-2mwer8::after {
-    color: black;
+  .theme-light .container-YkUktl::after {
+    color: black !important;
   }

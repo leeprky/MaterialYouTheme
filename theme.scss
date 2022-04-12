@@ -4,9 +4,9 @@
 | |\/| || - |  | |  | _| |   / | | | - || |__     \   / | (_) || |_| |
 |_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|     |_|   \___/  \___/ 
                              .--------.
-                             | v0.9.4 |
+                             | v0.9.5 |
                              '--------' 
-                Last Updated: 06/03/2022 21:13 (UK)
+                Last Updated: 12/04/2022 15:21 (UK)
           Version: Powercord (https://https://powercord.dev/)
 */
 
@@ -120,6 +120,13 @@
   --green-slider-off: #404447fd;
   --green-slider-dot-on: #4770a2;
   --green-slider-dot-off: #303337fd;
+
+  --win-bar-color-close: #945151;
+  --win-bar-color-close-inside: #ff8d8d;
+  --win-bar-color-maximise: #bdb368;
+  --win-bar-color-maximise-inside: #fff291;
+  --win-bar-color-minimise: var(--alt-color2);
+  --win-bar-color-minimise-inside: var(--button-interactive-active);
 
   --server-icon-size:scale(0.8);
   --bubble-radius:25px !important;

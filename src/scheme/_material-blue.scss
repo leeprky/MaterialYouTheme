@@ -5,6 +5,8 @@
 |_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|      |___/|____| \___/ |___|
 */
 
+@import "./material-global";
+
 :root {
   --style-name: "Material Blue";
   --style-creator: "Leeprky#2063";
@@ -23,7 +25,7 @@
     --main-background: #152029 !important;
     --secondary-background: #111a22 !important;
     --tertiary: #000000 !important;
-    --floating: #0e151c !important;
+    --floating: #080c10 !important;
 
     --headers: #b2cef0 !important; 
     --headers-secondary: #a9caf2 !important;

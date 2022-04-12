@@ -1,0 +1,38 @@
+/*
+ __  __  ___  _____  ___  ___  ___  ___  _           _      ___   ___   ___ 
+|  \/  |/   \|_   _|| __|| _ \|_ _|/   \| |         | |    / _ \ |   \ | __|
+| |\/| || - |  | |  | _| |   / | | | - || |__       | |__ | (_) || |) || _| 
+|_|  |_||_|_|  |_|  |___||_|_\|___||_|_||____|      |____| \___/ |___/ |___|
+*/
+:root {
+  --style-name: "Material Lode" !important;
+  --style-creator: "Leeprky#2063" !important;
+}
+
+/* Material Blue */
+.theme-dark {
+  /* Main Colours - Try Keep These The Same */
+  --alt-color: 76, 70, 163 !important;
+  --alt-color2: #4C46A3 !important;
+  --alt-color3: 244 !important;
+  /* HSL */
+  --green-slider-dot-on: #4770a2 !important;
+  /* Backgrounds */
+  --background-primary: #1E233A !important;
+  --background-secondary: #1E233A !important;
+  --background-tertiary: #14182b !important;
+  --background-floating: #111422 !important;
+  --header-primary: #fff !important;
+  --header-secondary: #b9bbbe !important;
+  --text-normal: #ccc8fd !important;
+  --text-muted: #535170 !important;
+  --text-link: var(--alt-color2) !important;
+  --channels-default: #b8b6d6 !important;
+  --interactive-normal: #b9bbbe !important;
+  --interactive-hover: #ccc8fd !important;
+  --interactive-hover-icons: var(--background-accent2) !important;
+  --interactive-active: #fefeff !important;
+  --interactive-active-icons: var(--background-accent2) !important;
+  --interactive-muted: #535170 !important;
+  --glasscord-current-style-bg: #12182ebe !important;
+}

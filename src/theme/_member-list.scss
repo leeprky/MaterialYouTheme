@@ -54,6 +54,9 @@ s-3WRCEx {
   .container-2o3qEW {
     background-color: var(--background-secondary) !important;
   }
-  .members-3WRCEx {
-    margin-top: 0px;
+  .members-3WRCEx, .members-3WRCEx>div {
+    padding-top: 0px !important;
+  }
+  .addButton-2mlqCW {
+    transform: scale(0.7);
   }

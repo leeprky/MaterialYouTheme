@@ -11,14 +11,32 @@
     border-radius: var(--bubble-radius);
     width: 32px;
     right: 10px;
-    margin-top: 16px;
+    margin-top: 19px;
     padding-left: 6px;
+    margin-left: 10px;
     padding-right: 6px;
+    background-color: rgba(var(--alt-color), 0.2);
+    transition: 300ms;
   }
-  
-  [role="button"][aria-label="Close"]:hover {
-    background-color: var(--main-colour2);
+  .winButton-3UMjdg:nth-child(2):hover {
+    background-color: var(--win-bar-color-close);
+    color: var(--win-bar-color-close-inside);
   }
+  .winButton-3UMjdg:nth-child(3):hover {
+    background-color: var(--win-bar-color-maximise);
+    color: var(--win-bar-color-maximise-inside);
+  }
+  .winButton-3UMjdg:hover {
+    background-color: var(--win-bar-color-minimise);
+    color: var(--win-bar-color-minimise-inside);
+    transition: 300ms;
+    width: 50px;
+  }
+
+.toolbar-3_r2xA {
+    margin-right: 170px !important;
+  }
+
 
   .chatContent-3KubbW, .bg-1QIAus, .chatContent-3KubbW, .bg-1QIAus {
     background-color: var(--background-primary) !important;

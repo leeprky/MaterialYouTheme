@@ -2,8 +2,8 @@
 
 :root {
   --outdated_materialyou-094:none !important;
-  --version:"0.9.4.PC" !important;
-  --build:"0943" !important;
+  --version:"0.9.5.PC" !important;
+  --build:"0945" !important;
   --version-display:flex;
   }
 
@@ -22,7 +22,7 @@
     width: fit-content;
     border-radius: 0 0 12px 12px !important;
     top: 0px !important;
-    content: var(--theme) " Is outdated. Current: (" var(--version) ") | Latest: (" var(--version-latest) ") " !important;
+    content: "An update is available for " var(--theme) " Please Update To " var(--version-latest) " | You are currently on " var(--version) " "!important;
     display: block;
     background-color: var(--alt-color2);
     color: #fff;
